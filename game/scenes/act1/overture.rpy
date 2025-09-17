@@ -28,4 +28,6 @@ label overture:
 
     child_akira "I mean y’know, I saw it when it said “posted 2 hours ago” and I thought it was too late so I didn’t like it but– "
 
+    jump scene_1
+
     

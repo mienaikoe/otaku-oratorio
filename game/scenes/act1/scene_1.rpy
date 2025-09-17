@@ -1,6 +1,6 @@
 label scene_1:
     scene bar
-    play music plastic_love volume 0.3 fadein 1.0 fadeout 1.0
+    play music plastic_love fadein 1.0 fadeout 1.0
 
     "Let us now fast-forward thirteen years, as we find our three friends at a karaoke bar in Manhattan. Akira was noticeably more quiet and reserved than before, especially when compared to his two livelier friends."
 
