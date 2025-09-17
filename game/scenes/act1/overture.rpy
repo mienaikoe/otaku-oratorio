@@ -14,5 +14,6 @@ label overture:
 
     child_akira "Once you add a story, pictures, and music, you can release it to the world!"
 
+    play sound "audio/sfx/wii-startup.mp3"
 
     
