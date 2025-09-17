@@ -33,15 +33,7 @@ label start:
 
     # play music "audio/peaceful.mp3"
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-    # show eileen happy
-
-    play audio [ "<silence .5>", "audio/bell.wav" ]
-
-    # These display lines of dialogue.
+    play audio [ "<silence .5>", "audio/sfx/airhorn.ogg" ]
 
     "The year was 2012. The Olympics were in London, Obama was about to be re-elected, and the timeline still kind of made sense."
 
