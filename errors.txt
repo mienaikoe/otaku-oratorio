@@ -2,9 +2,29 @@
 errors listed below, and try again.
 
 
-File "game/scenes/act1/overture.rpy", line 57: expected end of line
-    play music <from 0 to 3>wii_startup
-                     ^
+File "game/scenes/act1/scene_1.rpy", line 18: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/scenes/act1/scene_1.rpy", line 28: expected statement.
+    =======
+          ^
+
+File "game/scenes/act1/scene_1.rpy", line 30: expected statement.
+    >>>>>>> 9cef576 (some of act2)
+                    ^
+
+File "game/scenes/act1/scene_1.rpy", line 58: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/scenes/act1/scene_1.rpy", line 74: expected statement.
+    =======
+          ^
+
+File "game/scenes/act1/scene_1.rpy", line 77: expected statement.
+    >>>>>>> 9cef576 (some of act2)
+                    ^
 
 Ren'Py Version: Ren'Py 8.4.1.25072401
-Wed Sep 17 19:35:50 2025
+Sat Sep 20 13:35:46 2025

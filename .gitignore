@@ -1,1 +1,7 @@
 .DS_Store
+errors.txt
+log.txt
+traceback.txt
+game/start.rpyc
+game/**/*.rpyc
+game/saves/*.save

@@ -23,12 +23,30 @@ define config.has_autosave = False
 # default preferences.volume.sfx = 1.0
 
 # backgrounds
+image arcade = "arcade.jpeg"
+image ascended_plane = "ascended-plane.jpeg"
+image bar = "bar.jpeg"
+image castle_exterior = "castle-outside.jpeg"
+image castle_interior = "boss_battle.jpeg"
+image cave = "cave.jpeg"
 image coast = "coast.jpeg"
+image forest = "forest.jpeg"
+image funeral = "funeral.jpeg"
+image living_room_day = "living_room_day.jpeg"
+image living_room_night = "living_room_night.jpeg"
+image mountains = "mountains.jpeg"
+image park = "castle_town.jpeg" # MISSING IMAGE
+image street = "street.jpeg"
+image town = "town.jpeg"
+image village = "village.jpeg"
+
+image solid_black = Solid("#000000")
+image solid_white = Solid("#FFFFFF")
 
 # The game starts here.
 
 label start:
 
-    jump overture
+    jump prologue
 
     return
