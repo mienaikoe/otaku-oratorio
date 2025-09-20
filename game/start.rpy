@@ -48,6 +48,7 @@ image solid_white = Solid("#FFFFFF")
 
 label start:
 
-    jump prologue
+    jump overture
+    # jump prologue # for act 2
 
     return

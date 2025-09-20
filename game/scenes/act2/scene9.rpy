@@ -9,16 +9,16 @@ label scene9:
     teen_akira "Fine, I guess."
     mother "Have you finished any college applications yet?"
     "Akira sighed, then got up and walked to his room while his mother stared into the wall. She called up to him."
-    mother  "I have to go to work soon. Dinner’s in the fridge."
+    mother  "I have to go to work soon. Dinner's in the fridge."
     
     pause
 
-    "Akira’s father opened the door of their home, and took his shoes off, voicing his exhaustion. He opened the fridge and pulled out some food."
-    mother "That’s Akira’s"
-    "He switched to leftovers while she finished packing her purse for work. Akira’s father put the food down for a moment and kissed her on the forehead."
-    father "Do you ever feel like we’re just…"
+    "Akira's father opened the door of their home, and took his shoes off, voicing his exhaustion. He opened the fridge and pulled out some food."
+    mother "That's Akira's"
+    "He switched to leftovers while she finished packing her purse for work. Akira's father put the food down for a moment and kissed her on the forehead."
+    father "Do you ever feel like we're just…"
     mother "Spinning a wheel?"
-    father "But we’re still good, right? I mean… you still feel the spark?"
+    father "But we're still good, right? I mean… you still feel the spark?"
 
     "She smiled and turned to him, grabbing his hand, and in this short moment they had together, they danced in the living room."
 

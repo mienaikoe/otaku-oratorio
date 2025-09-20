@@ -28,6 +28,6 @@ label scene18:
     """
 
     teen_akira "I thought I lost you forever."
-    child_akira "I’ll always be here for you."
+    child_akira "I'll always be here for you."
 
     jump scene19

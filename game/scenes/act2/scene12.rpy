@@ -1,7 +1,7 @@
 label scene12:
     scene street with fade
 
-    "A few weeks later, Akira was walking alone on a rainy street. After his mother’s passing, he’d spent most of his free time wandering the streets like this, aimless and empty."
+    "A few weeks later, Akira was walking alone on a rainy street. After his mother's passing, he'd spent most of his free time wandering the streets like this, aimless and empty."
 
     "He stopped to sit on a bench and watched his reflection contort in the ripples of a puddle. His phone rang: a call from Suisei. But he turned it off and put it away."
 
@@ -28,7 +28,7 @@ label scene12:
     Dulci mei dormite
     """
 
-    teen_akira "Now that you’re no longer here, I don’t know what to do. I know I was never the best son, but you always loved me in your own way. I’ve been doing my best to wait for the stars to shine. But all I see is more darkness. What if darkness is all that there is?"
+    teen_akira "Now that you're no longer here, I don't know what to do. I know I was never the best son, but you always loved me in your own way. I've been doing my best to wait for the stars to shine. But all I see is more darkness. What if darkness is all that there is?"
 
     """
     Mitite liberi,

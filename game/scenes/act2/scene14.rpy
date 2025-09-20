@@ -20,9 +20,11 @@ label scene14:
 
     play music "Bittersweet.mp3" fadein 1.0
 
-    "Suisei opened the door to her hut, with Ivy ducking in behind her, leaving it slightly ajar for light. In the corner, a fire-lit silhouette was huddled behind a cloth. Suisei stopped in her tracks and slowly moved toward the silhouette with her hands up for a magic spell."
+    "Suisei opened the door to her hut, with Ivy ducking in behind her, leaving it slightly ajar for light." 
+    
+    "In the corner, a fire-lit silhouette was huddled behind a cloth. Suisei stopped in her tracks and slowly moved toward the silhouette with her hands up for a magic spell."
 
-    teen_suisei "Who’s there?"
+    teen_suisei "Who's there?"
 
     "The silhouette peeked behind the cloth."
 
@@ -30,37 +32,37 @@ label scene14:
 
     "Suisei was shocked. She opened her mouth to protest, but Ivy spoke before her."
 
-    teen_ivy "Oh. Yes we’d love some. (nudges Suisei) Wouldn’t we, Sui."
+    teen_ivy "Oh. Yes we'd love some. Wouldn't we, Sui."
     teen_suisei "What are you doing here?"
-    mother "Oh, I’ve been searching for my son for such a long time. I just needed a place to rest. I’m sorry if I’ve alarmed you."
-    teen_ivy "What my friend here is trying to say is, we’d love to learn more about you. You must have stories from all your travels."
+    mother "Oh, I've been searching for my son for such a long time. I just needed a place to rest. I'm sorry if I've alarmed you."
+    teen_ivy "What my friend here is trying to say is, we'd love to learn more about you. You must have stories from all your travels."
     mother "You want to hear my stories?"
     teen_ivy  "Of course."
-    teen_suisei "Why don’t you start with your name?"
+    teen_suisei "Why don't you start with your name?"
 
     "The mysterious woman handed them both cups of tea."
 
-    mother "Oh yes, I apologize. My name is… well that’s irrelevant in a place like this… you can just call me Adventure Mom. I’ve been searching for my son for quite a long time now."
-    teen_ivy "What can you tell us about your son? Maybe we’ve seen him?"
-    mother "Akira? What is there to say? He’s kind, but I’m so worried he may be troubled because of me."
-    teen_suisei  "You’re Akira’s Mom?!"
-    mother "So you know of him? You must be lucky. He loved his friends like they were family. I’ve been looking for him for so long."
-    teen_suisei "I’m… so sorry. I…"
-    teen_ivy "Why don’t you travel with us? We may know where he is."
-    mother "Oh, thank you but I’m much too tired from my journey. Perhaps I’m not meant to find him. Perhaps it was meant for you two."
+    mother "Oh yes, I apologize. My name is… well that's irrelevant in a place like this… you can just call me Adventure Mom. I've been searching for my son for quite a long time now."
+    teen_ivy "What can you tell us about your son? Maybe we've seen him?"
+    mother "Akira? What is there to say? He's kind, but I'm so worried he may be troubled because of me."
+    teen_suisei  "You're Akira's Mom?!"
+    mother "So you know of him? You must be lucky. He loved his friends like they were family. I've been looking for him for so long."
+    teen_suisei "I'm… so sorry. I…"
+    teen_ivy "Why don't you travel with us? We may know where he is."
+    mother "Oh, thank you but I'm much too tired from my journey. Perhaps I'm not meant to find him. Perhaps it was meant for you two."
     teen_ivy "So, hypothetically, if your son was captured by a super-powerful villain with crazy long swords and a well-thought-out plan, how exactly would you go about rescuing him?"
-    mother "(laughing) Well you have quite the imagination."
+    mother "Well you have quite the imagination."
     teen_ivy "Yea… Imagination…"
 
     "Ivy shuffled uneasily and clutched the metrocard in his pocket. The woman spotted the metrocard and her eyes opened wide."
 
     mother "Oh, you have a metrocard?"
-    teen_ivy "This? Oh I think I found it just a little bit before I ran into Akira and Suisei. I can’t shake the feeling that this will be important one day."
-    mother "You know, I’ve been to a cave somewhere far down a long pass through the mountains. I met a magician there once that made all my dreams come true."
-    mother "But I lost track of him when I went on this quest. I don’t know if he’s still down there but he’ll surely help you along your journey if he is."
+    teen_ivy "This? Oh I think I found it just a little bit before I ran into Akira and Suisei. I can't shake the feeling that this will be important one day."
+    mother "You know, I've been to a cave somewhere far down a long pass through the mountains. I met a magician there once that made all my dreams come true."
+    mother "But I lost track of him when I went on this quest. I don't know if he's still down there but he'll surely help you along your journey if he is."
     teen_ivy "Sui, maybe we should check that out."
-    teen_suisei "Maybe. Let’s prepare for a long journey then."
-    mother "If you’re ever in trouble, don’t forget to ask for help."
+    teen_suisei "Maybe. Let's prepare for a long journey then."
+    mother "If you're ever in trouble, don't forget to ask for help."
     teen_suisei "Thank you."
 
     "And with a reverent bow, the two left the hut and started on a new adventure into the mountains."
