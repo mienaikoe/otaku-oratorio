@@ -2,10 +2,9 @@
 errors listed below, and try again.
 
 
-The label start is defined twice, at File "game/script.rpy", line 28:
-label start:
-and File "game/start.rpy", line 29:
-
+File "game/scenes/act1/overture.rpy", line 57: expected end of line
+    play music <from 0 to 3>wii_startup
+                     ^
 
 Ren'Py Version: Ren'Py 8.4.1.25072401
-Tue Sep 16 23:35:31 2025
+Wed Sep 17 19:35:50 2025
