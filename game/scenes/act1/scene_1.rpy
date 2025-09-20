@@ -15,7 +15,6 @@ label scene_1:
 
     adult_ivy "…You still doing okay? You’ve been a little quiet this whole time."
 
-<<<<<<< HEAD
     adult_akira "I’m okay. Just a bit tired from work and being an adult and all that."
 
     adult_suisei "Boy, I feel that one. Just know that we’re always here if you wanna talk, okay?"
@@ -25,9 +24,6 @@ label scene_1:
     adult_akira "Y-Yeah."
 
     play music stay_with_me fadeout 0.5 noloop
-=======
-    # play sound airhorn
->>>>>>> 9cef576 (some of act2)
 
     # play music [stay-with-me, "<silence 60.0>"] fadein 1.0 fadeout 1.0
 
@@ -55,7 +51,6 @@ label scene_1:
 
     play music plastic_love
 
-<<<<<<< HEAD
     "The song ended and Akira looked around. Suisei seemed to be flirting with Ivy - playfully smacking him on the shoulder, leaning on him while laughing, a faint glow apparent on her cheeks. Ivy was oblivious to her advances and started teasing her."
 
     "Akira backed away toward the door."
@@ -71,7 +66,3 @@ label scene_1:
     adult_ivy "Something’s wrong with Akira. Let me go after him. Could you stay behind and take care of our check and stuff?"
 
     adult_suisei "O-Oh, okay! Catch me up on what happened later!"
-=======
-    "askjsdfhasjkdfhaksjdfhasjf"
-    
->>>>>>> 9cef576 (some of act2)
