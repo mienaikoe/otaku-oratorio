@@ -1,15 +1,25 @@
 label scene11:
-    scene funeral
+    scene funeral with fade
 
     "It was a cloudy day at the funeral."
     
     "There was a cherry blossom tree casting its petals upon the air like a shadow or a wildfire."
 
-    "It was Akira’s turn to speak. He was ready. He had trained for this after all. No crying. He had to be strong for dad."
+    "It was Akira’s turn to speak. He was ready. He had trained for this after all." 
+    
+    "No crying. He had to be strong for dad."
 
-    teen_akira "My mom used to wake up before sunrise to make my lunch. She’d cut the carrots into stars, and draw a smiley face on the rice with teriyaki sauce. She would leave little notes like “Ganbatte” on them. She’d dance with my dad sometimes even when there wasn’t any music. When things would get bad, she’d remind me that “even the darkness shines too with the stars”. I didn’t always believe her. But I’ll do my best."
+    teen_akira "My mom used to wake up before sunrise to make my lunch. She’d cut the carrots into stars, and draw a smiley face on the rice with teriyaki sauce." 
+    
+    teen_akira "She would leave little notes like “Ganbatte” on them. She’d dance with my dad sometimes even when there wasn’t any music."
+    
+    teen_akira "When things would get bad, she’d remind me that “even the darkness shines too with the stars”." 
+    
+    teen_akira "I didn’t always believe her. But I have to do my best."
 
-    "Akira left the front and his father stepped forward to speak to the crowd that had gathered. But as he tried to talk, the words failed him. So instead, he decided to sing."    
+    "Akira left the front and his father stepped forward to speak to the crowd that had gathered. But as he tried to talk, the words failed him."
+    
+    "So instead, he decided to sing."    
 
     play music "hanggang_sa_huli.mp3"
 

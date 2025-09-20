@@ -32,6 +32,7 @@ image cave = "cave.jpeg"
 image coast = "coast.jpeg"
 image forest = "forest.jpeg"
 image funeral = "funeral.jpeg"
+image hospital_room = "hospital_room.jpeg" # MISSING IMAGE
 image living_room_day = "living_room_day.jpeg"
 image living_room_night = "living_room_night.jpeg"
 image mountains = "mountains.jpeg"

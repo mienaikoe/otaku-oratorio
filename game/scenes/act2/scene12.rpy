@@ -1,5 +1,5 @@
 label scene12:
-    scene street
+    scene street with fade
 
     "A few weeks later, Akira was walking alone on a rainy street. After his mother’s passing, he’d spent most of his free time wandering the streets like this, aimless and empty."
 

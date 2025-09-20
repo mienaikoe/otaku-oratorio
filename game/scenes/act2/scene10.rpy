@@ -1,7 +1,9 @@
 label scene10:
-    scene arcade
+    scene arcade with fade
 
-    "One day, Akira had it in his mind to take Suisei on a date (or so he thought). He had suggested the arcade to show off his unmatched skill in the world’s finest arcade game."
+    "One day, Akira had it in his mind to take Suisei on a date (or so he thought)." 
+    
+    "He had suggested the arcade to show off his unmatched skill in the world’s finest arcade game."
 
     play music "hikaru_nara.mp3"
 
@@ -93,10 +95,14 @@ label scene10:
     hikari ni naru kara
     """
 
+    stop music
+
     teen_suisei "Wowww, I didn’t think you’d be that good at DDR!"
     teen_akira "Yeah, I guess the nervous energy has to be put to use somehow."
 
-    scene park
+    scene park with fade
+
+    play music "At Rest.mp3"
 
     "They moved to the park, where the cherry blossoms were blowing in the wind. Suisei was holding a plushy that Akira had won for her."
 
@@ -112,12 +118,13 @@ label scene10:
     teen_suisei "(pause) I’m sorry… I just don’t feel the same way as you… But, can we still be friends?"
     teen_akira "Yea…"
 
+    stop music
     window hide
     play sound "phone_ring.mp3"
     window show
 
     teen_akira "Hey dad, what’s up? What? Wait, slow down. What happened?"
 
-    scene solid_black
+    scene solid_black with fade
 
     jump scene11

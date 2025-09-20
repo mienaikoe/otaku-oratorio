@@ -1,5 +1,5 @@
 label scene9:
-    scene living_room_night
+    scene living_room_night with fade
 
     "The year was 2022. Akira sat alone in the living room, watching anime and scrolling on his phone, as was the custom at the time. The Wii where he used to play with Suisei and Ivy had been collecting dust for years."
 
@@ -77,5 +77,7 @@ label scene9:
     Yue lian dao biao wo de xin
     Yue lian dao biao wo de xin...
     """
+
+    stop music
 
     jump scene10
