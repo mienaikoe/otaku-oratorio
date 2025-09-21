@@ -2,17 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/scenes/act1/scene_1.rpy", line 54: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/scenes/act1/scene_1.rpy", line 70: expected statement.
-    =======
-          ^
-
-File "game/scenes/act1/scene_1.rpy", line 73: expected statement.
-    >>>>>>> 9cef576 (some of act2)
-                    ^
+File "game/scenes/act1/scene_5.rpy", line 6: unterminated string literal
+    "Suisei led the way to a lone witch’s hut in the middle of the forest. As they approached the front door, she came to a halt, then turned around to face Akira.
 
 Ren'Py Version: Ren'Py 8.4.1.25072401
-Sat Sep 20 13:38:09 2025
+Sun Sep 21 17:50:16 2025

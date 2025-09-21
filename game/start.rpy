@@ -10,6 +10,8 @@ define adult_akira = Character("Adult Akira", color="#910101")
 define adult_ivy = Character("Adult Ivy", color="#00974c")
 define adult_suisei = Character("Adult Suisei", color="#000ecf")
 
+define nurse = Character("Nurse")
+
 define mother = Character("Mother")
 define father = Character("Father")
 
