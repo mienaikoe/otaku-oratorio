@@ -5,3 +5,6 @@ traceback.txt
 game/start.rpyc
 game/**/*.rpyc
 game/saves/*.save
+game/cache/*
+game/saves/persistent
+game/saves/persistent/*
