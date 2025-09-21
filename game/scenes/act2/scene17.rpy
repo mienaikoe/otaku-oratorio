@@ -1,6 +1,6 @@
 label scene17:
 
-scene castle_interior with fade
+    scene castle_interior with fade
 
     "The castle was in ruins since the last time they were there. The windows were broken, and the torches were all unlit. Suisei took a torch from the wall, added some oil from her bag and lit it with a dagger and a rock from the floor. A thousand spiders crawled away at the bright light."
 
@@ -26,12 +26,12 @@ scene castle_interior with fade
     teen_suisei "That's your takeaway here?"
     teen_akira "You two again. Come to pay your respects?"
     teen_suisei "We want our friend back!"
-    teen_akira "He's not coming back. His joy, his optimism. It was dangerous. I had to do something." 
-    teen_akira "You see, this place. It only lives in his mind. And all of the terrible things happening out there would wreak havoc upon this place, were it not for me." 
+    teen_akira "He's not coming back. His joy, his optimism. It was dangerous. I had to do something."
+    teen_akira "You see, this place. It only lives in his mind. And all of the terrible things happening out there would wreak havoc upon this place, were it not for me."
     teen_akira "Were it not for the walls I put up, the order I instilled, everything would have fallen apart."
     teen_ivy "A-Akira? Is that you?"
-    teen_akira "Ivy. Arrogant and clueless as ever. You've always been a thorn in my side." 
-    teen_akira "And Suisei."  
+    teen_akira "Ivy. Arrogant and clueless as ever. You've always been a thorn in my side."
+    teen_akira "And Suisei."
     teen_akira "Well, Ivy just can't get rid of you, can he?"
     teen_suisei "Akira…"
     teen_akira "Too bad. You two actually had a chance in a place like this. "
@@ -47,13 +47,13 @@ scene castle_interior with fade
     teen_akira "Ready your weapons! I won't let you get away this time."
 
     """
-    Fithos lusec wecos vinosec 
+    Fithos lusec wecos vinosec
     Fithos lusec wecos vinosec
     """
 
     """
     Excitate vos e somno, liberi mei
-    Cunae non sunt 
+    Cunae non sunt
     """
 
     """
@@ -74,12 +74,12 @@ scene castle_interior with fade
     """
 
     """
-    Ardente veritate 
+    Ardente veritate
     Urite mala mundi
     """
 
     """
-    Ardente veritate 
+    Ardente veritate
     Incendite tenebras mundi
     """
 
@@ -106,11 +106,11 @@ scene castle_interior with fade
     """Ahhhhh, AHHHHHHH."""
 
     scene solid_white
-    stop music 
+    stop music
 
     "Akira braced for impact as mythical bus approached. But it slowed to a stop. And the door opened."
 
-    "Suisei walked slowly toward Akira, and took his hand." 
+    "Suisei walked slowly toward Akira, and took his hand."
 
     "He rose and faced her, then boarded the bus."
 

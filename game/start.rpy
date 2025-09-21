@@ -26,12 +26,14 @@ define config.has_autosave = False
 image arcade = "arcade.jpeg"
 image ascended_plane = "ascended-plane.jpeg"
 image bar = "bar.jpeg"
+image beach = "beach.jpeg"
 image castle_exterior = "castle-outside.jpeg"
 image castle_interior = "boss_battle.jpeg"
 image cave = "cave.jpeg"
 image coast = "coast.jpeg"
 image forest = "forest.jpeg"
 image funeral = "funeral.jpeg"
+image game_over = "game_over.png"
 image hospital_room = "hospital_room.jpeg" # MISSING IMAGE
 image living_room_day = "living_room_day.jpeg"
 image living_room_night = "living_room_night.jpeg"
@@ -48,7 +50,8 @@ image solid_white = Solid("#FFFFFF")
 
 label start:
 
-    jump overture
+    # jump overture
+    jump scene7
     # jump prologue # for act 2
 
     return

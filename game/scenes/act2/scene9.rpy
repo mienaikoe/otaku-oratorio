@@ -1,6 +1,7 @@
 label scene9:
     scene living_room_night with fade
 
+    window show
     "The year was 2022. Akira sat alone in the living room, watching anime and scrolling on his phone, as was the custom at the time. The Wii where he used to play with Suisei and Ivy had been collecting dust for years."
 
     "His mother walked in from another room with a sad look, phone in hand. But upon seeing her son, she perked up."
@@ -10,7 +11,7 @@ label scene9:
     mother "Have you finished any college applications yet?"
     "Akira sighed, then got up and walked to his room while his mother stared into the wall. She called up to him."
     mother  "I have to go to work soon. Dinner's in the fridge."
-    
+
     pause
 
     "Akira's father opened the door of their home, and took his shoes off, voicing his exhaustion. He opened the fridge and pulled out some food."

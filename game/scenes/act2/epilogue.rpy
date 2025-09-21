@@ -15,7 +15,7 @@ label epilogue:
     adult_akira "Still cocky I see."
     adult_ivy "Not cocky, just confident."
     adult_suisei "Shut up, I'm gonna beat you both."
-    adult_akira "Final destination, no items, let's go." 
+    adult_akira "Final destination, no items, let's go."
     adult_aira "And no skipping the intro!"
 
     play music "super_smash_bros.mp3"
