@@ -10,6 +10,8 @@ define adult_akira = Character("Adult Akira", color="#910101")
 define adult_ivy = Character("Adult Ivy", color="#00974c")
 define adult_suisei = Character("Adult Suisei", color="#000ecf")
 
+define nurse = Character("Nurse")
+
 define mother = Character("Mother")
 define father = Character("Father")
 
@@ -50,8 +52,8 @@ image solid_white = Solid("#FFFFFF")
 
 label start:
 
-    # jump overture
-    jump scene7
+    jump overture
+    # jump scene7
     # jump prologue # for act 2
 
     return

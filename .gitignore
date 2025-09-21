@@ -1,10 +1,15 @@
 .DS_Store
 errors.txt
+errors.txt*
 log.txt
+log.txt*
 traceback.txt
+traceback.txt*
+
 game/start.rpyc
 game/**/*.rpyc
 game/saves/*.save
 game/cache/*
 game/saves/persistent
 game/saves/persistent/*
+game/**/*.rpyb

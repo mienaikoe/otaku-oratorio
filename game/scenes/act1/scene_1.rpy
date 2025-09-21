@@ -1,6 +1,6 @@
 label scene_1:
 
-    scene bar 
+    scene bar
     with dissolve
 
     play music plastic_love fadeout 0.5 fadein 0.5
@@ -17,7 +17,7 @@ label scene_1:
 
     adult_akira "I'm okay. Just a bit tired from work and being an adult and all that."
 
-    adult_suisei "Boy, I feel that one. Just know that we're always here if you wanna talk, okay?"
+    adult_suisei "Oof, felt that one. We’re always here if you wanna talk about it, okay?"
 
     "Suisei put a hand on Akira's shoulder. Akira blushed."
 
@@ -39,8 +39,6 @@ label scene_1:
 
     adult_suisei "Ooh, I love this song! Let's sing this one, guys!"
 
-    "Suisei pulled both of them by the hand and they all got on the dance floor while Miki Matsubara sang her heart out."
-
     window hide
 
     pause
@@ -57,8 +55,6 @@ label scene_1:
 
     adult_akira "Sorry, guys, I've gotta go. See ya."
 
-    "He started walking briskly out of the bar, leaving his friends stunned."
-
     adult_ivy "Wait- Hey, Akira! Why are you in such a rush?"
 
     "Ivy shrugged off Suisei and turned to look at her."
@@ -66,3 +62,5 @@ label scene_1:
     adult_ivy "Something's wrong with Akira. Let me go after him. Could you stay behind and take care of our check and stuff?"
 
     adult_suisei "O-Oh, okay! Catch me up on what happened later!"
+
+    jump scene_2
