@@ -1,19 +1,19 @@
 label scene13:
     scene village with fade
 
-    "We return again to the land of Ii-sekai, where we find Suisei, now a teenager, on a small, modest-looking farm." 
-    
+    "We return again to the land of Ii-sekai, where we find Suisei, now a teenager, on a small, modest-looking farm."
+
     "She was busy working the field when it started to rain. She looked up and groaned, throwing her hoe into the ground in frustration."
 
-    teen_suisei "UGH! Ivy, this lifestyle fucking sucks! I wanna fight again!" 
-    
-    teen_suisei "…Ivy? Where are you?" 
+    teen_suisei "UGH! Ivy, this lifestyle fucking sucks! I wanna fight again!"
+
+    teen_suisei "…Ivy? Where are you?"
 
     teen_suisei "Ughhh, he's probably piss drunk at the tavern again. Let me go get that loser."
 
     scene bar with fade
 
-    play music "Marty Gots a Plan.mp3"
+    play music mischief
 
     "At this moment, Ivy was, indeed, piss drunk at the local tavern. He was slouched over his drink at the bar, looking very sad and pathetic."
 
@@ -29,14 +29,14 @@ label scene13:
 
     teen_suisei "Okay, well my bad for saving your sorry ass! Or did you *want* to die back there?"
 
-    teen_ivy "Of course not!!! But then what are we even supposed to do? Go back for another ass-beating?" 
-    
-    teen_ivy "And from a guy who looks so much like Akira, too?! Like, does this mean Akira was the villain all along? Are we supposed to kill our friend to save this cursed world??" 
+    teen_ivy "Of course not!!! But then what are we even supposed to do? Go back for another ass-beating?"
+
+    teen_ivy "And from a guy who looks so much like Akira, too?! Like, does this mean Akira was the villain all along? Are we supposed to kill our friend to save this cursed world??"
 
     teen_ivy "Please… don't make me kill him…"
 
-    teen_suisei "Look… I get it. I still don't know for sure if that villain actually was Akira. I'm super confused about it as well. But… if he really is Akira, then I want to believe that he wouldn't kill another version of himself." 
-    
+    teen_suisei "Look… I get it. I still don't know for sure if that villain actually was Akira. I'm super confused about it as well. But… if he really is Akira, then I want to believe that he wouldn't kill another version of himself."
+
     teen_suisei "If that Akira still cares for us deep down, then maybe we could talk some sense into him. Or, uh, beat some sense into him before the talking."
 
     teen_ivy "Okay then, you got any new ideas on how to not get obliterated by evil Akira? Cause I sure don't."
@@ -51,4 +51,3 @@ label scene13:
 
     jump scene14
 
-    

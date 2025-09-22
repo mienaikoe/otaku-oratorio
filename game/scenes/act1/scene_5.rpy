@@ -9,11 +9,13 @@ label scene_5:
     child_suisei "Hehe, thanks! You said you wanted to become stronger, right? Well, I can teach you the basics of how to fight, and show you some special magic-infused attacks that are especially effective against the Villain!"
 
     # play music cruel_angels_thesis fadeout 0.5 noloop
-    stop music
+    play music fukai_mori noloop
 
     window hide
 
     pause
+
+    stop music
 
     window show
 

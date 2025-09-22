@@ -1,11 +1,11 @@
 label scene10:
     scene arcade with fade
 
-    "One day, Akira had it in his mind to take Suisei on a date (or so he thought)." 
-    
+    "One day, Akira had it in his mind to take Suisei on a date (or so he thought)."
+
     "He had suggested the arcade to show off his unmatched skill in the world's finest arcade game."
 
-    play music "hikaru_nara.mp3"
+    play music hikaru_nara
 
     """
     Ameagari no niji mo

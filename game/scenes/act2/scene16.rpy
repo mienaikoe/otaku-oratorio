@@ -1,7 +1,7 @@
 label scene16:
 
     scene cave with fade
-    play music "Rites.mp3" fadein 1.0
+    play music rites fadein 1.0
 
     "Suisei and Ivy entered a dark cavern. Across the walls lay spiderwebs, cast across the open air. Hidden behind walls of rock and dirt was the occasional tile or mosaic artwork: A sign that something had been here before."
 
@@ -80,7 +80,7 @@ label scene16:
     """
     Saa, dekakeyou!
     Hitokire no PAN NAIFU, RANPU kaban ni
-    Tsumekonde 
+    Tsumekonde
     """
 
     """
