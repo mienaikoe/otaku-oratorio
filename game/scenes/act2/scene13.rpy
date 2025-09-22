@@ -1,5 +1,6 @@
 label scene13:
     scene village with fade
+    play music bittersweet volume 0.5 fadein 3.0
 
     "We return again to the land of Ii-sekai, where we find Suisei, now a teenager, on a small, modest-looking farm."
 
@@ -11,9 +12,11 @@ label scene13:
 
     teen_suisei "Ughhh, he's probably piss drunk at the tavern again. Let me go get that loser."
 
+    stop music fadeout 1.0
+
     scene bar with fade
 
-    play music mischief
+    play music mischief fadein 1.0  volume 0.5
 
     "At this moment, Ivy was, indeed, piss drunk at the local tavern. He was slouched over his drink at the bar, looking very sad and pathetic."
 

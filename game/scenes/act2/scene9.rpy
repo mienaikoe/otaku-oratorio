@@ -12,7 +12,9 @@ label scene9:
     "Akira sighed, then got up and walked to his room while his mother stared into the wall. She called up to him."
     mother  "I have to go to work soon. Dinner's in the fridge."
 
+    window hide
     pause
+    window show
 
     "Akira's father opened the door of their home, and took his shoes off, voicing his exhaustion. He opened the fridge and pulled out some food."
     mother "That's Akira's"

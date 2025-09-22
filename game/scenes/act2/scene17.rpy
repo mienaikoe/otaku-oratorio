@@ -1,6 +1,7 @@
 label scene17:
 
     scene castle_interior with fade
+    play music bowser_galaxy volume 0.5
 
     "The castle was in ruins since the last time they were there. The windows were broken, and the torches were all unlit. Suisei took a torch from the wall, added some oil from her bag and lit it with a dagger and a rock from the floor. A thousand spiders crawled away at the bright light."
 

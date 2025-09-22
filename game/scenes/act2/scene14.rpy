@@ -1,8 +1,9 @@
 label scene14:
 
     scene village with fade
-
-    play music "ashitaka_to_san.mp3"
+    stop music fadeout 1.0
+    # play music "ashitaka_to_san.mp3"
+    # Piano playing from Joanna
 
     "The next morning, the two decided to travel to Suisei's old witch hut to gather supplies for their adventure back to the Villain's castle. They reminisced about their old adventures as they traveled their old trails."
 
@@ -18,7 +19,7 @@ label scene14:
 
     stop music
 
-    play music "Bittersweet.mp3" fadein 1.0
+    play music bittersweet fadein 1.0 volume 0.5
 
     "Suisei opened the door to her hut, with Ivy ducking in behind her, leaving it slightly ajar for light." 
     

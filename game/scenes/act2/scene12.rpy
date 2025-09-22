@@ -51,4 +51,9 @@ label scene12:
 
     teen_akira "What if darkness is all that there is?"
 
+    stop music fadeout 1.0
+
+    scene solid_black with fade
+    pause
+
     jump scene13

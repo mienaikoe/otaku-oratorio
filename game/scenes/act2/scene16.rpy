@@ -1,7 +1,7 @@
 label scene16:
 
     scene cave with fade
-    play music rites fadein 1.0
+    play music rites fadein 1.0 volume 0.5
 
     "Suisei and Ivy entered a dark cavern. Across the walls lay spiderwebs, cast across the open air. Hidden behind walls of rock and dirt was the occasional tile or mosaic artwork: A sign that something had been here before."
 
@@ -33,6 +33,7 @@ label scene16:
 
     "Ivy reached for the metrocard, but Suisei pulled it away before he could lay his hands on it."
 
+    stop music fadeout 1.0
     play sound "turnstile_accept.mp3"
 
     teen_suisei "Ivy you don't even know how to use magic. You could hurt yourself. I have to dispel the ward with an incantation and then use a binding spell to--"
@@ -60,9 +61,10 @@ label scene16:
     teen_ivy "Who are you?"
     father "Akira used to call me dad. So I guess you can call me Akira's Dad."
 
-    "They cautiously walked in, and found themselves in a magical world. A glowing crystal shined in the middle of the train car."
+    scene solid_white with fade
+    play music crystal_ambiance fadein 3.0 volume 0.5
 
-    scene train with fade
+    "They cautiously walked in, and found themselves in a magical world. A glowing crystal shined in the middle of the train car."
 
     father "This used to be Akira's. Go ahead."
 

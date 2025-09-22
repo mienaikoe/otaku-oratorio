@@ -1,6 +1,7 @@
 label scene15:
 
     scene mountains with fade
+    stop music fadeout 1.0
     # arirang is a capella
 
     """

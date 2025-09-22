@@ -1,5 +1,6 @@
 label scene11:
     scene funeral with fade
+    play music thunder fadein 3.0
 
     "It was a cloudy day at the funeral."
 
@@ -95,5 +96,7 @@ label scene11:
     Pag-ibig ko'y sa 'yo
     Sa iyo hanggang sa huli
     """
+
+    stop music fadeout 1.0
 
     jump scene12

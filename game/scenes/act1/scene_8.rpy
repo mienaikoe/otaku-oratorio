@@ -15,7 +15,7 @@ label scene_8:
     "Akira and Ivy turned around and joined Suisei, each taking a hand. With a glance at Ivy and a flustered look, she shook off their hands and walked away. The two exchanged confused glances, then ran off to follow her."
 
     scene castle_interior with fade
-    play music rites volume 0.5
+    play music bowser_galaxy volume 0.5
     # TODO: Replace with Bowser levels music
 
     "Once inside the castle, they found themselves in a dark entryway. Two sconces with unlit torches guarded the front door. Suisei took one and handed the other to Ivy. "

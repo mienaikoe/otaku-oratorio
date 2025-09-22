@@ -1,11 +1,16 @@
 label scene10:
     scene arcade with fade
+    play music jojo_peaceful_street_corner
 
     "One day, Akira had it in his mind to take Suisei on a date (or so he thought)."
 
     "He had suggested the arcade to show off his unmatched skill in the world's finest arcade game."
 
-    play music hikaru_nara
+    stop music fadeout 1.0
+
+    pause 1.0
+
+    play music hikaru_nara 
 
     """
     Ameagari no niji mo
@@ -95,36 +100,40 @@ label scene10:
     hikari ni naru kara
     """
 
-    stop music
+    stop music fadeout 1.0
+    pause 1.0
 
     teen_suisei "Wowww, I didn't think you'd be that good at DDR!"
     teen_akira "Yeah, I guess the nervous energy has to be put to use somehow."
 
     scene park with fade
-
-    play music "At Rest.mp3"
+    play music rest fadein 1.0
 
     "They moved to the park, where the cherry blossoms were blowing in the wind. Suisei was holding a plushy that Akira had won for her."
 
     teen_akira "Hey, uh. I just wanted to talk about something important before we go our separate ways. I've wanted to tell you this for a while."
-    teen_suisei "Oh of course, you can tell me anything you idiot! (hits him with plushy)"
-    teen_akira "(pause) We've known each other for a long time, I just get this fuzzy feeling inside (gradually sounds more rushed and anxious), especially when I see you smile or even look at me and I think to myself, “oh god she's not mad at me or anything like that, right?” "
+    teen_suisei "Oh of course, you can tell me anything you idiot!"
+    teen_akira "We've known each other for a long time, I just get this fuzzy feeling inside, especially when I see you smile or even look at me and I think to myself, “oh god she's not mad at me or anything like that, right?” "
     teen_akira "I guess what I'm saying is that… it feels like you make my heart smile on the inside and I just think I really like you."
     teen_suisei "(long pause). I… really like you too."
     teen_akira "Oh, so you also?--"
-    teen_suisei "– N-not like that. I mean I like you a lot, you mean a lot to me… You're one of my best friends but… "
+    teen_suisei "–- N-not like that. I mean I like you a lot, you mean a lot to me… You're one of my best friends but… "
     teen_suisei "I've only seen you as a friend… It's not you, it's me… idiot."
     teen_akira "Oh… Well, at least I tried."
-    teen_suisei "(pause) I'm sorry… I just don't feel the same way as you… But, can we still be friends?"
+    teen_suisei "I'm sorry… I just don't feel the same way as you… But, can we still be friends?"
     teen_akira "Yea…"
 
     stop music
     window hide
-    play sound "phone_ring.mp3"
+    play sound "<to 3.0>audio/sfx/pururin_ringtone.mp3" volume 0.5
+    pause 3.0
     window show
 
     teen_akira "Hey dad, what's up? What? Wait, slow down. What happened?"
 
+    window hide
+
+    stop sound
     scene solid_black with fade
 
     jump scene11
