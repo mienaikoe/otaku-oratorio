@@ -19,31 +19,31 @@ define squirtle = Character("Squirtle")
 define fangirls = Character("Fangirls")
 
 define config.has_autosave = False
+define config.main_menu_music = "audio/music/plastic_love.mp3"
 
 # config
 # default preferences.volume.music = 1.0
 # default preferences.volume.sfx = 1.0
 
 # backgrounds
-image arcade = "arcade.jpeg"
-image ascended_plane = "ascended-plane.jpeg"
-image bar = "bar.jpeg"
-image beach = "beach.jpeg"
-image castle_exterior = "castle-outside.jpeg"
-image castle_interior = "boss_battle.jpeg"
-image cave = "cave.jpeg"
-image coast = "coast.jpeg"
-image forest = "forest.jpeg"
-image funeral = "funeral.jpeg"
-image game_over = "game_over.png"
-image hospital_room = "hospital_room.jpeg" # MISSING IMAGE
-image living_room_day = "living_room_day.jpeg"
-image living_room_night = "living_room_night.jpeg"
-image mountains = "mountains.jpeg"
-image park = "castle_town.jpeg" # MISSING IMAGE
-image street = "street.jpeg"
-image town = "town.jpeg"
-image village = "village.jpeg"
+# image arcade = "arcade.jpeg"
+# image ascended_plane = "ascended-plane.png"
+# image bar = "bar.jpeg"
+# image beach = "beach.png"
+# image castle_exterior = "castle_exterior.png"
+# image castle_interior = "castle_interior.png"
+# image cave = "cave.png"
+# image forest = "forest.png"
+# image funeral = "funeral.png"
+# image game_over = "game_over.png"
+image hospital_room = "hospital_room.png" # MISSING IMAGE
+# image living_room_day = "living_room_day.png"
+# image living_room_night = "living_room_night.png"
+# image mountains = "mountains.png"
+image park = "town.png" # MISSING IMAGE
+# image street = "street.png"
+# image town = "town.png"
+# image village = "village.png"
 
 image solid_black = Solid("#000000")
 image solid_white = Solid("#FFFFFF")
@@ -52,7 +52,9 @@ image solid_white = Solid("#FFFFFF")
 
 label start:
 
-    # jump overture # for act 1
-    jump prologue # for act 2
+    stop music fadeout 1.0
+
+    jump overture # for act 1
+    # jump prologue # for act 2
 
     return

@@ -26,4 +26,9 @@ label scene_2:
     "Around the corner, a bus was approaching, but Akira didn’t seem to notice the bright lights that were headed toward him."
     adult_ivy "Akira, look out!"
 
+    stop music fadeout 1.0
+    scene solid_white with fade
+
+    pause 2.0
+
     jump scene_3

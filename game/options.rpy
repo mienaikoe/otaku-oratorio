@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("otaku-oratorio")
+define config.name = _("Otaku Oratorio: I got hit by a bus and now my love triangle of friends are RPG fantasy heroes")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set

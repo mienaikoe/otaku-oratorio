@@ -5,7 +5,7 @@ label prologue:
     scene solid_black with fade
 
     pause
-
+    
     scene ascended_plane with fade
 
     pause
