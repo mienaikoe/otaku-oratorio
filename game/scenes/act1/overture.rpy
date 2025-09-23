@@ -1,7 +1,7 @@
 label overture:
 
     scene dokidoki:
-        zoom 3.
+        zoom 2.
     with dissolve
 
     play music jojo_peaceful_street_corner

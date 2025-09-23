@@ -18,6 +18,8 @@ define father = Character("Father")
 define squirtle = Character("Squirtle")
 define fangirls = Character("Fangirls")
 
+define both_1 = Character("Akira and Suisei")
+
 define config.has_autosave = False
 define config.main_menu_music = "audio/music/plastic_love.mp3"
 
