@@ -1,6 +1,6 @@
 label scene16:
 
-    scene cave with fade
+    scene times_square with fade
     play music rites fadein 1.0 volume 0.5
 
     "Suisei and Ivy entered a dark cavern. Across the walls lay spiderwebs, cast across the open air. Hidden behind walls of rock and dirt was the occasional tile or mosaic artwork: A sign that something had been here before."
@@ -61,7 +61,7 @@ label scene16:
     teen_ivy "Who are you?"
     father "Akira used to call me dad. So I guess you can call me Akira's Dad."
 
-    scene solid_white with fade
+    scene train_interior with fade
     play music bittersweet fadein 3.0 volume 0.5
 
     "They cautiously walked in, and found themselves in a magical world. A glowing crystal shined in the middle of the train car."

@@ -38,8 +38,7 @@ image solid_white = Solid("#FFFFFF")
 label start:
     stop music fadeout 1.0
 
-    # jump overture # for act 1
+    jump overture # for act 1
     # jump prologue # for act 2
-    jump scene_8
 
     return
