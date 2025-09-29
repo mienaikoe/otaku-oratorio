@@ -4,7 +4,7 @@ label overture:
         zoom 2.
     with dissolve
 
-    play music jojo_peaceful_street_corner
+    play music jojo_peaceful_street_corner volume 0.4
 
     # play audio [ "<silence .5>", "audio/sfx/airhorn.ogg" ]
 

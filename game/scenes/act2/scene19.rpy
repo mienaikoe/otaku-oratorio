@@ -1,5 +1,5 @@
 label scene19:
-    scene hospital_room with fade
+    scene hospital with fade
 
     "Akira lay in a hospital bed, wondering if he was still alive. He opened his eyes, then moved his arms and toes, then propped himself up to look around."
 

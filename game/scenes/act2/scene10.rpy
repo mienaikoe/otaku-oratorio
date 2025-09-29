@@ -1,6 +1,6 @@
 label scene10:
     scene arcade with fade
-    play music jojo_peaceful_street_corner
+    play music jojo_peaceful_street_corner volume 0.4
 
     "One day, Akira had it in his mind to take Suisei on a date (or so he thought)."
 
@@ -107,7 +107,7 @@ label scene10:
     teen_akira "Yeah, I guess the nervous energy has to be put to use somehow."
 
     scene park with fade
-    play music rest fadein 1.0
+    play music rest fadein 1.0 volume 0.6
 
     "They moved to the park, where the cherry blossoms were blowing in the wind. Suisei was holding a plushy that Akira had won for her."
 

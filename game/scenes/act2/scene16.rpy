@@ -17,28 +17,28 @@ label scene16:
 
     "Ivy held the card against it, then hit the rock with the card, but nothing happened. He grew frustrated, and set his hand on a slot right above the rock."
 
-    play sound "turnstile_reject.mp3"
+    play sound metrocard_fail1 volume 0.5
 
     teen_suisei "What was that?"
 
     "Ivy lifted his hand and revealed the slot."
 
-    teen_suisei "Let me have that. "
+    teen_suisei "Let me have that."
 
     "She took the metrocard and examined the slot, trying a few things but nothing happened."
 
-    play sound "turnstile_reject.mp3"
+    play sound metrocard_fail2 volume 0.5
 
     teen_ivy "Hey, that's mine. Give it back."
 
     "Ivy reached for the metrocard, but Suisei pulled it away before he could lay his hands on it."
 
     stop music fadeout 1.0
-    play sound "turnstile_accept.mp3"
+    play sound metrocard_success volume 0.6 
 
     teen_suisei "Ivy you don't even know how to use magic. You could hurt yourself. I have to dispel the ward with an incantation and then use a binding spell to--"
 
-    play sound "train_approaching.mp3"
+    play sound train_approaching volume 1.0
 
     teen_ivy "What was that?"
 
@@ -62,7 +62,7 @@ label scene16:
     father "Akira used to call me dad. So I guess you can call me Akira's Dad."
 
     scene solid_white with fade
-    play music crystal_ambiance fadein 3.0 volume 0.5
+    play music bittersweet fadein 3.0 volume 0.5
 
     "They cautiously walked in, and found themselves in a magical world. A glowing crystal shined in the middle of the train car."
 
@@ -70,7 +70,9 @@ label scene16:
 
     "Ivy and Suisei touched the crystal, and the train car filled with a bright blue light. A magical aura overtook Suisei and Ivy."
 
-    play music "kimi_wo_nosete.mp3" fadein 1.0
+    stop music fadeout 1.0
+
+    # play music "kimi_wo_nosete.mp3" fadein 1.0 # TODO: Missing Backing Track
 
     """
     Ano chiheisen. Kagayaku no wa
