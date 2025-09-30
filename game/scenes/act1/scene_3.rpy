@@ -1,7 +1,6 @@
 label scene_3:
 
-    scene hospital:
-        zoom 3.
+    scene hospital
     with dissolve
 
     stop music fadeout 1.0
@@ -24,6 +23,10 @@ label scene_3:
     stop sound fadeout 1.0
     stop music fadeout 1.0
 
-    "(Insert Promised Land backing track here)"
+    window hide
+
+    pause
+
+    window show
 
     jump scene_4

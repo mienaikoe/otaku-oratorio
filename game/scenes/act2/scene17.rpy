@@ -1,7 +1,7 @@
 label scene17:
 
     scene castle_interior with fade
-    play music bowser_galaxy volume 0.1
+    play music bowser_galaxy volume 0.5
 
     "The castle was in ruins since the last time they were there. The windows were broken, and the torches were all unlit. Suisei took a torch from the wall, added some oil from her bag and lit it with a dagger and a rock from the floor. A thousand spiders crawled away at the bright light."
 
@@ -39,7 +39,7 @@ label scene17:
     teen_suisei "Shut up!"
     teen_akira "But now you're fated to die here."
 
-    play music liberi_fatali
+    play music liberi_fatali noloop
 
     """
     Fithos lusec wecos vinosec
@@ -102,7 +102,7 @@ label scene17:
     Fithos Lusec Wecos Vinosec
     """
 
-    play sound bus_arrival volume 0.8
+    # play sound "bus_approaching.mp3"
 
     """Ahhhhh, AHHHHHHH."""
 
@@ -114,7 +114,5 @@ label scene17:
     "Suisei walked slowly toward Akira, and took his hand."
 
     "He rose and faced her, then boarded the bus."
-
-    stop sound
 
     jump scene18

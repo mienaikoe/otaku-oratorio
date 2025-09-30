@@ -75,7 +75,7 @@ label scene_8:
 
     child_akira "We’ve come to end this."
 
-    play music find_the_flame
+    play music find_the_flame noloop
 
     """
     Dig, dig, dig, dig, deeper
@@ -174,8 +174,8 @@ label scene_8:
     "The stranger’s sword had found a victim, pinning Akira against the ground as he gasped for air. Suisei ran toward Ivy in this brief opening."
 
     child_suisei "We have to go."
-    child_ivy "(broken) I’m not leaving him!"
-    child_suisei "(urgent) We have to go!"
+    child_ivy "I’m not leaving him!"
+    child_suisei "We have to go!"
 
     "She lifted Ivy onto his feet and together they fled out the door."
 

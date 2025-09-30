@@ -10,7 +10,7 @@ label scene10:
 
     pause 1.0
 
-    play music hikaru_nara 
+    play music hikaru_nara noloop
 
     """
     Ameagari no niji mo

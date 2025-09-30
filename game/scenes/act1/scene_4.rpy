@@ -51,7 +51,7 @@ label scene_4:
 
     "Suisei and Akira prepared to fight."
 
-    play music cruel_angels_thesis fadeout 0.5 noloop
+    play music cruel_angels_thesis noloop
 
     window hide
 
