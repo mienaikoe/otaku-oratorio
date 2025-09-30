@@ -14,7 +14,7 @@ label scene_6:
     child_akira "Wha-… wait, what the fuck? Ivy?? What are you doing here? And who are those girls following you around?"
     child_ivy "Of course you know me. I’m Ivy (Motherfuckin’) Oak."
     fangirls "Ooooh!"
-    # play sound airhorn
+
     play sound [ "<silence 4.5>", airhorn ]
     child_ivy "and I’m on a quest to stomp every unsuspecting Pokemon trainer in my path!!"
     child_akira "HUH?? Pokemon trainer?"
