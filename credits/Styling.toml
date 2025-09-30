@@ -1,0 +1,656 @@
+version = "1.8.1"
+
+[global]
+resolution = "720x1080"
+fps = "24"
+timecodeFormat = "CLOCK"
+blankFirstFrame = false
+blankLastFrame = true
+grounding = [0.0, 0.0, 0.0, 1.0, ]
+unitVGapPx = 32.0
+locale = "en"
+uppercaseExceptions = ["_af_", "_auf_", "_d’#", "_da_", "_Da#", "_dai_", "_Dai#", "_dal_", "_Dal#", "_dalla_", "_Dalla#", "_das_", "_de_", "_de’_", "_dei_", "_Dei#", "_del_", "_Del#", "_della_", "_Della#", "_der_", "_des_", "_di_", "_Di#", "_do_", "_dos_", "_du_", "_e_", "_Mc#", "_Mac#", "_of_", "_ten_", "_thoe_", "_til_", "_to_", "_tot_", "_van_", "_von_", "_von und zu_", "_zu_", ]
+
+[[pageStyle]]
+name = "Card"
+subsequentGapFrames = 24
+behavior = "CARD"
+cardRuntimeFrames = 120
+cardFadeInFrames = 12
+cardFadeInTransitionStyleName = "Linear"
+cardFadeOutFrames = 12
+cardFadeOutTransitionStyleName = "Linear"
+
+[[pageStyle]]
+name = "Lyrics"
+subsequentGapFrames = 24
+behavior = "CARD"
+cardRuntimeFrames = 120
+cardFadeInFrames = 12
+cardFadeInTransitionStyleName = "Linear"
+cardFadeOutFrames = 12
+cardFadeOutTransitionStyleName = "Linear"
+
+[[pageStyle]]
+name = "Scroll"
+subsequentGapFrames = 24
+behavior = "SCROLL"
+scrollPxPerFrame = 3.0
+
+[[contentStyle]]
+name = "Blurb"
+spineAttachment = "BODY_CENTER"
+vMarginTopPx = 0.0
+vMarginBottomPx = 0.0
+bodyLetterStyleName = "Normal"
+bodyLayout = "PARAGRAPHS"
+paragraphsLineHJustify = "CENTER"
+paragraphsLineWidthPx = 500.0
+paragraphsParaGapPx = 8.0
+paragraphsLineGapPx = 0.0
+hasHead = false
+hasTail = false
+
+[[contentStyle]]
+name = "Bullets"
+blockOrientation = "VERTICAL"
+spineAttachment = "BODY_CENTER"
+vMarginTopPx = 0.0
+vMarginBottomPx = 0.0
+bodyLetterStyleName = "Name"
+bodyLayout = "FLOW"
+sort = "OFF"
+flowDirection = "L2R"
+flowLineHJustify = "CENTER"
+flowSquareCells = false
+flowHarmonizeCellWidth = "OFF"
+flowHarmonizeCellHeight = "OFF"
+flowCellVJustify = "MIDDLE"
+flowLineWidthPx = 800.0
+flowLineGapPx = 0.0
+flowHGapPx = 32.0
+flowSeparator = "•"
+flowSeparatorVJustify = "MIDDLE"
+hasHead = true
+headLetterStyleName = "Small"
+headHJustify = "CENTER"
+headGapPx = 4.0
+hasTail = false
+
+[[contentStyle]]
+name = "Card"
+blockOrientation = "VERTICAL"
+spineAttachment = "BODY_CENTER"
+vMarginTopPx = 0.0
+vMarginBottomPx = 0.0
+bodyLetterStyleName = "Card Name"
+bodyLayout = "GRID"
+sort = "OFF"
+gridCols = 1
+gridStructure = "FREE"
+gridHarmonizeColWidths = "OFF"
+gridHarmonizeRowHeight = "OFF"
+gridCellHJustifyPerCol = ["CENTER", ]
+gridRowGapPx = 0.0
+hasHead = true
+headLetterStyleName = "Card Small"
+headHJustify = "CENTER"
+headGapPx = 32.0
+hasTail = true
+tailLetterStyleName = "Card Small"
+tailHJustify = "CENTER"
+tailGapPx = 32.0
+
+[[contentStyle]]
+name = "Cardish"
+blockOrientation = "VERTICAL"
+spineAttachment = "BODY_CENTER"
+vMarginTopPx = 0.0
+vMarginBottomPx = 0.0
+bodyLetterStyleName = "Name"
+bodyLayout = "GRID"
+sort = "OFF"
+gridCols = 1
+gridStructure = "FREE"
+gridHarmonizeColWidths = "OFF"
+gridHarmonizeRowHeight = "OFF"
+gridCellHJustifyPerCol = ["CENTER", ]
+gridRowGapPx = 0.0
+hasHead = true
+headLetterStyleName = "Normal"
+headHJustify = "CENTER"
+headGapPx = 4.0
+hasTail = false
+
+[[contentStyle]]
+name = "Gutter"
+blockOrientation = "HORIZONTAL"
+spineAttachment = "HEAD_GAP_CENTER"
+vMarginTopPx = 0.0
+vMarginBottomPx = 0.0
+bodyLetterStyleName = "Name"
+bodyLayout = "GRID"
+sort = "OFF"
+gridCols = 1
+gridStructure = "FREE"
+gridHarmonizeColWidths = "ACROSS_BLOCKS"
+gridHarmonizeRowHeight = "OFF"
+gridCellHJustifyPerCol = ["LEFT", ]
+gridRowGapPx = 0.0
+hasHead = true
+headLetterStyleName = "Small"
+headHarmonizeWidth = "ACROSS_BLOCKS"
+headHJustify = "RIGHT"
+headVShelve = "FIRST"
+headVJustify = "MIDDLE"
+headGapPx = 24.0
+headLeader = ""
+hasTail = false
+
+[[contentStyle]]
+name = "Heading"
+spineAttachment = "BODY_CENTER"
+vMarginTopPx = 0.0
+vMarginBottomPx = 0.0
+bodyLetterStyleName = "Heading"
+bodyLayout = "GRID"
+sort = "OFF"
+gridCols = 1
+gridStructure = "FREE"
+gridHarmonizeColWidths = "OFF"
+gridHarmonizeRowHeight = "OFF"
+gridCellHJustifyPerCol = ["CENTER", ]
+gridRowGapPx = 0.0
+hasHead = false
+hasTail = false
+
+[[contentStyle]]
+name = "Logos"
+blockOrientation = "VERTICAL"
+spineAttachment = "BODY_CENTER"
+vMarginTopPx = 0.0
+vMarginBottomPx = 0.0
+bodyLetterStyleName = "Normal"
+bodyLayout = "FLOW"
+sort = "OFF"
+flowDirection = "L2R"
+flowLineHJustify = "CENTER"
+flowSquareCells = false
+flowHarmonizeCellWidth = "OFF"
+flowHarmonizeCellHeight = "OFF"
+flowCellVJustify = "MIDDLE"
+flowLineWidthPx = 300.0
+flowLineGapPx = 64.0
+flowHGapPx = 96.0
+flowSeparator = ""
+hasHead = false
+hasTail = true
+tailLetterStyleName = "Normal"
+tailHJustify = "CENTER"
+tailGapPx = 12.0
+
+[[contentStyle]]
+name = "Lyrics"
+blockOrientation = "VERTICAL"
+spineAttachment = "BODY_CENTER"
+vMarginTopPx = 0.0
+vMarginBottomPx = 0.0
+bodyLetterStyleName = "English Lyrics"
+bodyLayout = "PARAGRAPHS"
+paragraphsLineHJustify = "CENTER"
+paragraphsLineWidthPx = 530.0
+paragraphsParaGapPx = 19.0
+paragraphsLineGapPx = 0.0
+hasHead = true
+headLetterStyleName = "Latin Lyrics"
+headHJustify = "CENTER"
+headGapPx = 80.0
+hasTail = false
+
+[[contentStyle]]
+name = "Song"
+blockOrientation = "VERTICAL"
+spineAttachment = "BODY_CENTER"
+vMarginTopPx = 0.0
+vMarginBottomPx = 0.0
+bodyLetterStyleName = "Small"
+bodyLayout = "GRID"
+sort = "OFF"
+gridCols = 1
+gridStructure = "FREE"
+gridHarmonizeColWidths = "ACROSS_BLOCKS"
+gridHarmonizeRowHeight = "WITHIN_BLOCK"
+gridCellHJustifyPerCol = ["CENTER", ]
+gridCellVJustify = "TOP"
+gridRowGapPx = 0.0
+hasHead = true
+headLetterStyleName = "Song Title"
+headHJustify = "CENTER"
+headGapPx = 0.0
+hasTail = false
+
+[[contentStyle]]
+name = "Subheading"
+spineAttachment = "BODY_CENTER"
+vMarginTopPx = 0.0
+vMarginBottomPx = 0.0
+bodyLetterStyleName = "Small"
+bodyLayout = "GRID"
+sort = "OFF"
+gridCols = 1
+gridStructure = "FREE"
+gridHarmonizeColWidths = "OFF"
+gridHarmonizeRowHeight = "OFF"
+gridCellHJustifyPerCol = ["CENTER", ]
+gridRowGapPx = 0.0
+hasHead = false
+hasTail = false
+
+[[contentStyle]]
+name = "Tabular"
+spineAttachment = "BODY_CENTER"
+vMarginTopPx = 0.0
+vMarginBottomPx = 0.0
+bodyLetterStyleName = "Name"
+bodyLayout = "GRID"
+sort = "OFF"
+gridCols = 3
+gridFillingOrder = "L2R_T2B"
+gridFillingBalanced = true
+gridStructure = "EQUAL_WIDTH_COLS"
+gridHarmonizeColWidths = "OFF"
+gridHarmonizeRowHeight = "OFF"
+gridCellHJustifyPerCol = ["LEFT", "CENTER", "RIGHT", ]
+gridCellVJustify = "MIDDLE"
+gridRowGapPx = 0.0
+gridColGapPx = 32.0
+hasHead = false
+hasTail = false
+
+[[contentStyle]]
+name = "Title"
+blockOrientation = "VERTICAL"
+spineAttachment = "BODY_CENTER"
+vMarginTopPx = 0.0
+vMarginBottomPx = 0.0
+bodyLetterStyleName = "Card Small"
+bodyLayout = "PARAGRAPHS"
+paragraphsLineHJustify = "CENTER"
+paragraphsLineWidthPx = 600.0
+paragraphsParaGapPx = 8.0
+paragraphsLineGapPx = 0.0
+hasHead = true
+headLetterStyleName = "Title"
+headHJustify = "CENTER"
+headGapPx = 4.0
+hasTail = false
+
+[[letterStyle]]
+name = "Card Name"
+font = "Archivo Narrow Bold"
+heightPx = 56.0
+leadingTopRh = 0.0
+leadingBottomRh = 0.0
+trackingEm = 0.0
+kerning = true
+ligatures = true
+uppercase = false
+smallCaps = "OFF"
+superscript = "OFF"
+hScaling = 1.0
+
+	[[letterStyle.layers]]
+	name = "Text"
+	coloring = "PLAIN"
+	color1 = [0.9642792, 0.9999695, 0.8250885, 1.0, ]
+	shape = "TEXT"
+	dilationRfh = 0.0
+	contour = false
+	offsetCoordinateSystem = "CARTESIAN"
+	hOffsetRfh = 0.0
+	vOffsetRfh = 0.0
+	hScaling = 1.0
+	vScaling = 1.0
+	hShearing = 0.0
+	vShearing = 0.0
+	blurRadiusRfh = 0.0
+
+[[letterStyle]]
+name = "Card Small"
+font = "Archivo Narrow Regular"
+heightPx = 32.0
+leadingTopRh = 0.0
+leadingBottomRh = 0.0
+trackingEm = 0.0
+kerning = true
+ligatures = true
+uppercase = false
+smallCaps = "OFF"
+superscript = "OFF"
+hScaling = 1.0
+
+	[[letterStyle.layers]]
+	name = "Text"
+	coloring = "PLAIN"
+	color1 = [0.9642792, 0.9999695, 0.8250885, 1.0, ]
+	shape = "TEXT"
+	dilationRfh = 0.0
+	contour = false
+	offsetCoordinateSystem = "CARTESIAN"
+	hOffsetRfh = 0.0
+	vOffsetRfh = 0.0
+	hScaling = 1.0
+	vScaling = 1.0
+	hShearing = 0.0
+	vShearing = 0.0
+	blurRadiusRfh = 0.0
+
+[[letterStyle]]
+name = "English Lyrics"
+font = "Baskerville"
+heightPx = 32.0
+leadingTopRh = 0.0
+leadingBottomRh = 0.0
+trackingEm = 0.0
+uppercase = false
+smallCaps = "OFF"
+superscript = "OFF"
+hScaling = 1.0
+
+	[[letterStyle.layers]]
+	name = "Text"
+	coloring = "PLAIN"
+	color1 = [0.9642792, 0.9999695, 0.8250885, 1.0, ]
+	shape = "TEXT"
+	dilationRfh = 0.0
+	contour = false
+	offsetCoordinateSystem = "CARTESIAN"
+	hOffsetRfh = 0.0
+	vOffsetRfh = 0.0
+	hScaling = 1.0
+	vScaling = 1.0
+	hShearing = 0.0
+	vShearing = 0.0
+	blurRadiusRfh = 0.0
+
+[[letterStyle]]
+name = "Heading"
+font = "Archivo Narrow Regular"
+heightPx = 32.0
+leadingTopRh = 0.0
+leadingBottomRh = 0.0
+trackingEm = 0.05
+kerning = true
+ligatures = true
+uppercase = false
+smallCaps = "OFF"
+superscript = "OFF"
+hScaling = 1.0
+
+	[[letterStyle.layers]]
+	name = "Text"
+	coloring = "PLAIN"
+	color1 = [0.9642792, 0.9999695, 0.8250885, 1.0, ]
+	shape = "TEXT"
+	dilationRfh = 0.0
+	contour = false
+	offsetCoordinateSystem = "CARTESIAN"
+	hOffsetRfh = 0.0
+	vOffsetRfh = 0.0
+	hScaling = 1.0
+	vScaling = 1.0
+	hShearing = 0.0
+	vShearing = 0.0
+	blurRadiusRfh = 0.0
+
+	[[letterStyle.layers]]
+	name = "Underline"
+	coloring = "PLAIN"
+	color1 = [0.9642792, 0.9999695, 0.8250885, 1.0, ]
+	shape = "STRIPE"
+	stripePreset = "UNDERLINE"
+	stripeWidenLeftRfh = 0.0
+	stripeWidenRightRfh = 0.0
+	stripeCornerJoin = "MITER"
+	contour = false
+	offsetCoordinateSystem = "CARTESIAN"
+	hOffsetRfh = 0.0
+	vOffsetRfh = 0.0
+	hScaling = 1.0
+	vScaling = 1.0
+	hShearing = 0.0
+	vShearing = 0.0
+	blurRadiusRfh = 0.0
+
+[[letterStyle]]
+name = "Latin Lyrics"
+font = "Snooty"
+heightPx = 64.0
+leadingTopRh = 0.0
+leadingBottomRh = 0.0
+trackingEm = 0.0
+uppercase = false
+smallCaps = "OFF"
+superscript = "OFF"
+hScaling = 1.0
+
+	[[letterStyle.layers]]
+	name = "Text"
+	coloring = "PLAIN"
+	color1 = [0.9642792, 0.9999695, 0.8250885, 1.0, ]
+	shape = "TEXT"
+	dilationRfh = 0.0
+	contour = false
+	offsetCoordinateSystem = "CARTESIAN"
+	hOffsetRfh = 0.0
+	vOffsetRfh = 0.0
+	hScaling = 1.0
+	vScaling = 1.0
+	hShearing = 0.0
+	vShearing = 0.0
+	blurRadiusRfh = 0.0
+
+	[[letterStyle.layers]]
+	name = ""
+	coloring = "PLAIN"
+	color1 = [0.9642792, 0.9999695, 0.8250885, 1.0, ]
+	shape = "TEXT"
+	dilationRfh = 0.0
+	contour = false
+	offsetCoordinateSystem = "CARTESIAN"
+	hOffsetRfh = 0.0
+	vOffsetRfh = 0.0
+	hScaling = 1.0
+	vScaling = 1.0
+	hShearing = 0.0
+	vShearing = 0.0
+	blurRadiusRfh = 0.0
+
+[[letterStyle]]
+name = "Name"
+font = "Archivo Narrow Bold"
+heightPx = 36.0
+leadingTopRh = 0.0
+leadingBottomRh = 0.0
+trackingEm = 0.0
+kerning = true
+ligatures = true
+uppercase = false
+smallCaps = "OFF"
+superscript = "OFF"
+hScaling = 1.0
+
+	[[letterStyle.layers]]
+	name = "Text"
+	coloring = "PLAIN"
+	color1 = [0.9642792, 0.9999695, 0.8250885, 1.0, ]
+	shape = "TEXT"
+	dilationRfh = 0.0
+	contour = false
+	offsetCoordinateSystem = "CARTESIAN"
+	hOffsetRfh = 0.0
+	vOffsetRfh = 0.0
+	hScaling = 1.0
+	vScaling = 1.0
+	hShearing = 0.0
+	vShearing = 0.0
+	blurRadiusRfh = 0.0
+
+[[letterStyle]]
+name = "Normal"
+font = "Archivo Narrow Regular"
+heightPx = 26.0
+leadingTopRh = 0.0
+leadingBottomRh = 0.0
+trackingEm = 0.0
+kerning = true
+ligatures = true
+uppercase = false
+smallCaps = "OFF"
+superscript = "OFF"
+hScaling = 1.0
+
+	[[letterStyle.layers]]
+	name = "Text"
+	coloring = "PLAIN"
+	color1 = [0.9642792, 0.9999695, 0.8250885, 1.0, ]
+	shape = "TEXT"
+	dilationRfh = 0.0
+	contour = false
+	offsetCoordinateSystem = "CARTESIAN"
+	hOffsetRfh = 0.0
+	vOffsetRfh = 0.0
+	hScaling = 1.0
+	vScaling = 1.0
+	hShearing = 0.0
+	vShearing = 0.0
+	blurRadiusRfh = 0.0
+
+[[letterStyle]]
+name = "Small"
+font = "Archivo Narrow Regular"
+heightPx = 26.0
+leadingTopRh = 0.0
+leadingBottomRh = 0.0
+trackingEm = 0.0
+kerning = true
+ligatures = true
+uppercase = false
+smallCaps = "OFF"
+superscript = "OFF"
+hScaling = 1.0
+
+	[[letterStyle.layers]]
+	name = "Text"
+	coloring = "PLAIN"
+	color1 = [0.9642792, 0.9999695, 0.8250885, 1.0, ]
+	shape = "TEXT"
+	dilationRfh = 0.0
+	contour = false
+	offsetCoordinateSystem = "CARTESIAN"
+	hOffsetRfh = 0.0
+	vOffsetRfh = 0.0
+	hScaling = 1.0
+	vScaling = 1.0
+	hShearing = 0.0
+	vShearing = 0.0
+	blurRadiusRfh = 0.0
+
+[[letterStyle]]
+name = "Song Title"
+font = "Archivo Narrow Bold"
+heightPx = 28.0
+leadingTopRh = 0.0
+leadingBottomRh = 0.0
+trackingEm = 0.0
+kerning = true
+ligatures = true
+uppercase = false
+smallCaps = "SMALL_CAPS"
+superscript = "OFF"
+hScaling = 1.0
+
+	[[letterStyle.layers]]
+	name = "Text"
+	coloring = "PLAIN"
+	color1 = [0.9642792, 0.9999695, 0.8250885, 1.0, ]
+	shape = "TEXT"
+	dilationRfh = 0.0
+	contour = false
+	offsetCoordinateSystem = "CARTESIAN"
+	hOffsetRfh = 0.0
+	vOffsetRfh = 0.0
+	hScaling = 1.0
+	vScaling = 1.0
+	hShearing = 0.0
+	vShearing = 0.0
+	blurRadiusRfh = 0.0
+
+[[letterStyle]]
+name = "Title"
+font = "Archivo Narrow Regular"
+heightPx = 96.0
+leadingTopRh = 0.0
+leadingBottomRh = 0.0
+trackingEm = 0.0
+kerning = true
+ligatures = true
+uppercase = false
+smallCaps = "OFF"
+superscript = "OFF"
+hScaling = 1.0
+
+	[[letterStyle.layers]]
+	name = "Text"
+	coloring = "PLAIN"
+	color1 = [0.9642792, 0.9999695, 0.8250885, 1.0, ]
+	shape = "TEXT"
+	dilationRfh = 0.0
+	contour = false
+	offsetCoordinateSystem = "CARTESIAN"
+	hOffsetRfh = 0.0
+	vOffsetRfh = 0.0
+	hScaling = 1.0
+	vScaling = 1.0
+	hShearing = 0.0
+	vShearing = 0.0
+	blurRadiusRfh = 0.0
+
+[[transitionStyle]]
+name = "Linear"
+graph = [0.0, 0.0, 1.0, 1.0, ]
+
+[[pictureStyle]]
+name = "CinecredH.svg"
+picture = "CinecredH.svg"
+heightPx = 90.0
+cropBlankSpace = true
+
+[[pictureStyle]]
+name = "CinecredV.svg"
+picture = "CinecredV.svg"
+heightPx = 150.0
+cropBlankSpace = true
+
+[[pictureStyle]]
+name = "CinecredV.svg 2"
+picture = "CinecredV.svg"
+heightPx = 200.0
+cropBlankSpace = true
+
+[[pictureStyle]]
+name = "CinecredV.svg 3"
+picture = "CinecredV.svg"
+heightPx = 160.0
+cropBlankSpace = true
+
+[[pictureStyle]]
+name = "renpy-logo.png"
+picture = "renpy-logo.png"
+heightPx = 160.0
+
+[[pictureStyle]]
+name = "renpy-logo.png 2"
+picture = "renpy-logo.png"
+heightPx = 160.0
+

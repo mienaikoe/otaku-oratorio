@@ -1,5 +1,5 @@
 label scene_7:
-    scene beach
+    scene ships
     play music beach_party fadein 5.0 volume 0.5
 
     "The group spotted a clearing in the trees. Sensing danger, or maybe fun, Ivy scouted ahead."

@@ -15,8 +15,7 @@ label scene_8:
     "Akira and Ivy turned around and joined Suisei, each taking a hand. With a glance at Ivy and a flustered look, she shook off their hands and walked away. The two exchanged confused glances, then ran off to follow her."
 
     scene castle_interior with fade
-    play music bowser_galaxy volume 0.5
-    # TODO: Replace with Bowser levels music
+    play music rites volume 0.5
 
     "Once inside the castle, they found themselves in a dark entryway. Two sconces with unlit torches guarded the front door. Suisei took one and handed the other to Ivy. "
 
@@ -47,19 +46,22 @@ label scene_8:
     child_suisei "Wow, is that a vulpix?"
     child_ivy "Where?!"
 
+    stop music fadeout 1.0
+    play sound distant_explosion volume 0.6
+
     "Suddenly a rumbling sound trembled the ground below them. In front of them, a door swung wide open and revealed a towering ballroom with burning candelabras lining the walls."
 
     "A strange figure with armor and a helmet entered the doorway."
 
-    teen_akira "New visitors? Funny, I don’t recall asking for new servants."
+    stranger "New visitors? Funny, I don’t recall asking for new servants."
 
     child_suisei  "We are NOT your servants. You’ve been terrorizing this land for too long. We’ve come to serve justice."
 
-    teen_akira "Justice? I suppose you still believe in the truth as well. Justice is nothing but a figment - a dream amongst the nightmares of reality."
+    stranger "Justice? I suppose you still believe in the truth as well. Justice is nothing but a figment - a dream amongst the nightmares of reality."
 
     "Suisei began to use her magic to spin her torch, growing the flame, but the strange figure snapped his fingers and the torch’s flame grew out of control and exploded, separating the three."
 
-    teen_akira "Oh you’ve come to fight, have you?"
+    stranger "Oh you’ve come to fight, have you?"
     child_ivy  "We’ve come to kick your ass! Squirtle, go!"
     squirtle "-tle!"
 
@@ -132,7 +134,7 @@ label scene_8:
 
     child_akira "I’ve got this!"
 
-    teen_akira "I’m done playing around."
+    stranger "I’m done playing around."
 
     """
     Raise thy lantern, pioneer

@@ -1,11 +1,21 @@
 label scene12:
     scene street with fade
 
+    play sound thunder volume 1.0
+
     "A few weeks later, Akira was walking alone on a rainy street. After his mother's passing, he'd spent most of his free time wandering the streets like this, aimless and empty."
 
-    "He stopped to sit on a bench and watched his reflection contort in the ripples of a puddle. His phone rang: a call from Suisei. But he turned it off and put it away."
+    "He stopped to sit on a bench and watched his reflection contort in the ripples of a puddle." 
+    
+    "His phone rang: a call from Suisei."
 
-    play music "trishas_lullaby.mp3"
+    play sound pururin_ringtone volume 0.3 
+    pause 2.0
+    stop sound
+
+    "But he turned it off and put it away."
+
+    # play music "trishas_lullaby.mp3" # MISSING BACKING TRACK
 
     """
     Dormite liberi,

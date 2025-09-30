@@ -152,6 +152,9 @@ style say_label:
     xalign gui.name_xalign
     yalign 0.5
 
+    outlines [ (absolute(3), "#333", absolute(0), absolute(0)) ]
+
+
 style say_dialogue:
     properties gui.text_properties("dialogue")
 
