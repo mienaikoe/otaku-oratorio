@@ -1,3 +1,5 @@
+image ssbb_intro = Movie(play="video/ssbb_intro.webm", loop=False)
+
 label overture:
 
     scene dokidoki:
@@ -50,28 +52,21 @@ label overture:
 
     "Ivy and Akira both reached for their controllers too."
 
+    stop music fadeout 1.0
+
+    play sound wii_short fadeout 0.3
+
     child_ivy "It's time to d-d-d-d-duel, worthy opponent… the Naruto to my Sasuke… The Ash to my Gary… the Mario to my Bowse–"
 
     child_akira "W-What's the score between us again? Me: 99 wins to your 5 matches?"
 
     child_suisei "Cool your bromance guys, I'm beating you both."
 
-    play music wii_short fadeout 0.3
+    stop sound fadeout 0.5
 
-    queue music smash_bros
+    $ renpy.movie_cutscene("video/ssbb_intro.webm")
 
-    window hide
-
-    pause
-
-    window show
-
-    stop music
-
-    play sound wii_click
-    "Ivy presses the A button on the game, skipping the intro."
-
-    play music jojo_peaceful_street_corner
+    play music ssbb_menu noloop volume 0.3
 
     child_akira "How could you skip the intro?!"
 
