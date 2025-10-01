@@ -74,8 +74,9 @@ label scene_7:
     window show
 
     """
-    Arittake no yume wo kaki atsume
-    Sagashi mono sagashi ni yuku no sa
+    {i}Gathering up all the pieces of our dreams\n
+    We're going to search for everything we're looking for\n
+    One Piece!{/i}
     """
 
     "One Piece!"

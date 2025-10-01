@@ -21,6 +21,8 @@ define fangirls = Character("Fangirls", color="#fff")
 
 define both_1 = Character("Akira and Suisei", color="#fff")
 
+define lyrics = Character(None, what_italic=True)
+
 define config.has_autosave = False
 define config.main_menu_music = "audio/music/plastic_love.mp3"
 
@@ -38,7 +40,8 @@ image solid_white = Solid("#FFFFFF")
 label start:
     stop music fadeout 1.0
 
-    jump overture # for act 1
+    # jump overture # for act 1
     # jump prologue # for act 2
+    jump scene_1
 
     return

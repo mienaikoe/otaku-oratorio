@@ -22,7 +22,7 @@ label scene_1:
     "Suisei put a hand on Akira's shoulder. Akira blushed."
 
     adult_akira "Y-Yeah."
-
+    
     play music stay_with_me fadeout 0.2 noloop
 
     "Ivy moved in closer and slung an arm around Akira's shoulder."
@@ -38,11 +38,51 @@ label scene_1:
     adult_suisei "Ooh, I love this song! Let's sing this one, guys!"
 
     window hide
-
     pause
+    window show
 
+    lyrics """
+    I am only me, you are only you\nI said that last night and still feel the same way
+
+    You in your gray jacket with that familiar coffee stain\nJust as you always are\nOur reflection in the display window
+
+    Stay with me\nKnocking on midnight's door\nBegging you not to go home\nThat season is right in front of my eyes
+
+    Stay with me\nSaying our favourite words\nHolding on to our little moment\nI'll never forget it as long as I live
+    """
+
+    window hide
     pause
+    window show
 
+    lyrics """
+    They say love and affection are two different things\nYou told me last night\nSometimes I think so too
+
+    Winter comes again and your heart has gone away\nIf I look back I see\nThat I could always feel you by my sidе
+
+    Stay with me\nKnocking on midnight's door\nThere's a holе in my heart\nThat season is right in front of my eyes
+
+    Stay with me\nDistracted by my loneliness\nThe needle on my record player\nWas stuck on a repeating melody
+    """
+
+    window hide
+    pause
+    window show
+
+    lyrics """
+    Stay with me\nKnocking on midnight's door\nBegging you not to go home\nThat season is right in front of my eyes
+
+    Stay with me\nSaying our favourite words\nHolding on to our little moment\nI'll never forget how warm it felt
+
+    Stay with me\nKnocking on midnight's door\nBegging you not to go home\nThat season is right in front of my eyes
+
+    Stay with me\nSaying our favourite words\nHolding on to our little moment\nI'll never forget how warm it felt
+
+    Stay with me...
+    """
+
+    window hide
+    pause
     window show
 
     play music plastic_love

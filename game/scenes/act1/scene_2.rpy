@@ -19,8 +19,36 @@ label scene_2:
     "Akira ran away, dropping a MetroCard in the process. Ivy bent down to pick it up."
     adult_ivy "Dude, you dropped something! Hey--"
     "But when he looked up, Akira was halfway down the street. Realizing he was already out of earshot, he heaved a big sigh of frustration. After staring at the MetroCard for a while, he pocketed it."
-        
+    
     play music rain noloop
+
+    window hide
+
+    pause
+
+    window show
+
+    lyrics """
+    I don't feel a thing\nAnd I stop remembering\nThe days are just like moments turned to hours
+
+    Mother used to say\nIf you want, you'll find a way\nBut mother never danced through fire showers
+
+    Walk in the rain\nIn the rain, in the rain
+    
+    I walk in the rain, in the rain\nIs it right or is it wrong\nAnd is it here that I belong
+
+    I don't hear a sound\nSilent faces in the ground\nA quiet screams, but I refuse to listen
+
+    If there is a hell\nI'm sure this is how it smells\nWish this were a dream, but no, it isn't
+
+    Walk in the rain\nIn the rain, in the rain
+    
+    I walk in the rain, in the rain\nAm I right or am I wrong\nAnd is it here that I belong
+
+    Walk in the rain\nIn the rain, in the rain
+    
+    I walk in the rain, in the rain\nWhy do I feel so alone\nFor some reason I think of home
+    """
 
     window hide
 

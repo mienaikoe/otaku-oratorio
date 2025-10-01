@@ -13,3 +13,8 @@ game/cache/*
 game/saves/persistent
 game/saves/persistent/*
 game/**/*.rpyb
+game/cache/bytecode-312.rpyb
+game/cache/screens.rpyb
+game/cache/shaders.txt
+game/saves/navigation.json
+game/saves/persistent

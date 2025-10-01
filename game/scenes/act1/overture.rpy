@@ -6,8 +6,6 @@ label overture:
 
     play music jojo_peaceful_street_corner volume 0.4
 
-    # play audio [ "<silence .5>", "audio/sfx/airhorn.ogg" ]
-
     "The year was 2012. The Olympics were in London, Obama was about to be re-elected, and the timeline still kind of made sense."
 
     "It is upon this backdrop that we discover our heroes for today. Three kids - Akira, Suisei, and Ivy - were enjoying their last weeks of their summer break, lounging in the living room to play the Nintendo Wii, as was customary at the time." 
