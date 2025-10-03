@@ -1,6 +1,6 @@
 label scene_8:
     scene castle_exterior with fade
-    play music bittersweet
+    play music bittersweet volume 0.3
     "At last, our adventurers found themselves at their destination. The castle stood tall in the cloudy moonlight, as if to challenge the very sky above it."
 
     "They anchored the ship and lowered themselves on a dinghy, waving to the cats that had been their companions for this last leg of their journey."
@@ -63,7 +63,7 @@ label scene_8:
 
     stranger "Oh you’ve come to fight, have you?"
     child_ivy  "We’ve come to kick your ass! Squirtle, go!"
-    squirtle "-tle!"
+    squirtle "Squirtle!"
 
     "Squirtle jumped and landed on Ivy’s back, and with a big heave, he used Water Gun as Ivy ran toward the stranger."
 
