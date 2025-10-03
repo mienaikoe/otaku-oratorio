@@ -59,7 +59,7 @@ label scene_7:
 
     child_suisei "Suisei is the what?"
 
-    "Ivy yelped and his hands began to slip, but Suisei caught his hand just in time. She hoisted him onto the deck and he collapsed."
+    "Ivy’s hands slipped, but Suisei caught him just in time. She hoisted him onto the deck and he collapsed."
 
     "Unbeknownst to them, a curious group of ship-mousing cats had gathered around, staring at these new adventurers."
 

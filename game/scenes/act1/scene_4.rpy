@@ -42,7 +42,7 @@ label scene_4:
     "Akira got out of bed with renewed vigor and walked straight out the door. Shocked at his incredible recovery, Suisei stumbled after him."
 
     child_suisei "Wait, you’ve decided that quickly? Hang on a sec-"
-    "Before she could stop him, Akira opened the door and marched confidently outside. He looked up, and saw darkness across. The townspeople fled into their homes in terror."
+    "Before she could stop him, Akira opened the door and marched confidently outside. He looked up, and saw darkness across the sky. The townspeople fled into their homes in terror."
 
     "Akira approached a glowing cloud that lingered in the air in front of him."
     child_suisei "Akira, don’t touch that!"

@@ -51,7 +51,7 @@ label scene_6:
     child_ivy "I like the way you think, my friend!"
     child_ivy "...Maybe it was my fate to run into you guys eventually…"
     child_akira "So, what’s it gonna be?"
-    child_ivy "Sure, I’ll join you guys on your silly little journey! (turning toward his fan club) Sorry, girls. Ivy has to go on a big quest with these two. Smell ya later!"
+    child_ivy "Sure, I’ll join you guys on your silly little journey! Sorry, girls. Ivy has to go on a big quest with these two. Smell ya later!"
     fangirls "Awww."
     "The fan club departed and Ivy turned back around to greet his new traveling partners."
 

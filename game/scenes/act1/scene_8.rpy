@@ -63,7 +63,7 @@ label scene_8:
 
     stranger "Oh you’ve come to fight, have you?"
     child_ivy  "We’ve come to kick your ass! Squirtle, go!"
-    squirtle "-tle!"
+    squirtle "Squirtle!"
 
     "Squirtle jumped and landed on Ivy’s back, and with a big heave, he used Water Gun as Ivy ran toward the stranger."
 
@@ -77,57 +77,36 @@ label scene_8:
 
     play music find_the_flame 
 
-    """
-    Dig, dig, dig, dig, deeper
-    Dig, dig, dig, dig, deeper
-    Delve, delve, delve, delve, deeper
-    Weep, weep, weep, weep, weeper.
-    """
+    window hide
+    pause
+    window show
 
-    """
-    Raise thy lantern, pioneer
-    Shine upon the far frontier
-    Fingers cracked and body broken
-    Mind a-daze yet soul awoken
-    """
-
-    """
-    Diving into the mire
-    Laid out upon the pyre
-    Never this soul shall tire
-    Running into the fire
+    lyrics """
+    Dig, dig, dig, dig, deeper\nDig, dig, dig, dig, deeper\nDelve, delve, delve, delve, deeper\nWeep, weep, weep, weep, weeper
     """
 
     window hide
     pause
     window show
 
-    """
-    Your bleary bloodshot eyes open wide in the dawn
-    Let the light in and brighten the shades that sleep inside you
+    lyrics """
+    Raise thy lantern, pioneer\nShine upon the far frontier\nFingers cracked and body broken\nMind a-daze yet soul awoken
+
+    Diving into the mire\nLaid out upon the pyre\nNever this soul shall tire\nRunning into the fire
     """
 
-    """
-    Find the flame, the flame, the flame
-    Find the flame, the flame, the flame
-    Let its light blind you
-    """
+    child_suisei "Ugh! Ivy, tell Squirtle to stop hitting me with Water Gun! It breaks my focus!"
+    child_ivy "He’s trying his best!! Just levitate the droplets away or something!"
+    child_suisei "You’re SO annoying."
 
-    """
-    Delve in this dark abyss
-    Fathomless emptiness
-    'Til the kiss of fire enfolds you
-    """
+    lyrics """
+    Your bleary bloodshot eyes open wide in the dawn\nLet the light in and brighten the shades that sleep inside you
 
-    window hide
-    pause
-    window show
+    Find the flame, the flame, the flame\nFind the flame, the flame, the flame\nLet its light blind you
 
-    """
-    Dig, dig, dig, dig, deeper
-    Dig, dig, dig, dig, deeper
-    Delve, delve, delve, delve, deeper
-    Reap, reap, reap, reap, reaper
+    Delve in this dark abyss\nFathomless emptiness\n'Til the kiss of fire enfolds you
+
+    Dig, dig, dig, dig, deeper\nDig, dig, dig, dig, deeper\nDelve, delve, delve, delve, deeper\nReap, reap, reap, reap, reaper
     """
 
     child_ivy "Be careful, Akira!"
@@ -136,35 +115,24 @@ label scene_8:
 
     stranger "I’m done playing around."
 
-    """
-    Raise thy lantern, pioneer
-    Shine upon the far frontier
-    Fingers cracked and body broken
-    Mind a-daze yet soul awoken
+    lyrics """
+    Raise thy lantern, pioneer\nShine upon the far frontier\nFingers cracked and body broken\nMind a-daze yet soul awoken
+
+    Diving into the mire\nLaid out upon the pyre\nNever this soul shall tire\nRunning into the fire
     """
 
-    """
-    Diving into the mire
-    Laid out upon the pyre
-    Never this soul shall tire
-    Running into the fire
-    """
+    stranger "Is that all you’ve got? I’m starting to get bored."
 
-    """
-    Your bleary bloodshot eyes open wide in the dawn
-    Let the light in and brighten the shades that sleep inside you
-    """
+    child_akira "Damn it! Why won’t he go down?!"
 
-    """
-    Find the flame, the flame, the flame
-    Find the flame, the flame, the flame
-    Let its light blind you
-    """
+    stranger "It’s time to end this charade."
 
-    """
-    Delve in this dark abyss
-    Fathomless emptiness
-    'Til the kiss of fire enfolds you
+    lyrics """
+    Your bleary bloodshot eyes open wide in the dawn\nLet the light in and brighten the shades that sleep inside you
+
+    Find the flame, the flame, the flame\nFind the flame, the flame, the flame\nLet its light blind you
+
+    Delve in this dark abyss\nFathomless emptiness\n'Til the kiss of fire enfolds you
     """
 
     stop music
