@@ -25,7 +25,6 @@ label scene9:
 
     "She smiled and turned to him, grabbing his hand, and in this short moment they had together, they danced in the living room."
 
-    play music "moon_represents_my_heart.mp3" noloop
 
     """
     Ni wen wo ai ni you duo shen

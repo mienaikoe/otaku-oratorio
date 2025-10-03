@@ -15,7 +15,6 @@ label scene12:
 
     "But he turned it off and put it away."
 
-    # play music "trishas_lullaby.mp3" noloop # MISSING BACKING TRACK
 
     """
     Dormite liberi,
