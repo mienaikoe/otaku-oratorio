@@ -22,7 +22,7 @@ label scene11:
 
     "So instead, he decided to sing."
 
-    play music hanggang_sa_huli noloop
+    play music hanggang_sa_huli 
 
     """
     Sa aking puso'y nag-iisa

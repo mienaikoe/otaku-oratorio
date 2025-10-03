@@ -24,7 +24,7 @@ define both_1 = Character("Akira and Suisei", color="#fff")
 define lyrics = Character(None, what_italic=True)
 
 define config.has_autosave = False
-define config.main_menu_music = "audio/music/plastic_love.mp3"
+define config.main_menu_music = "audio/bgm/plastic_love.mp3"
 
 # config
 # default preferences.volume.music = 1.0
@@ -42,6 +42,6 @@ label start:
 
     # jump overture # for act 1
     # jump prologue # for act 2
-    jump scene_1
+    jump scene_7
 
     return

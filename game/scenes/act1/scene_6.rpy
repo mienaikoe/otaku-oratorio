@@ -27,7 +27,7 @@ label scene_6:
     child_suisei "Oh, it’s fine! We oughta knock this guy down a peg or two - I mean, he’s calling himself Ivy (Motherfuckin’) Oak, and even has a stupid little fan club following him around. Let me take him on!"
     child_akira "OOOKAY then, I guess we’re doing this now! Uhh - Suisei, I choose you!!"
 
-    play music pokemon fadeout 0.5 noloop
+    play music pokemon fadeout 0.5 
 
     window hide
 

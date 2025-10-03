@@ -39,7 +39,7 @@ label scene17:
     teen_suisei "Shut up!"
     teen_akira "But now you're fated to die here."
 
-    play music liberi_fatali noloop
+    play music liberi_fatali 
 
     """
     Fithos lusec wecos vinosec

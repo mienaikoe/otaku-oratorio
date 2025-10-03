@@ -20,7 +20,7 @@ label scene_2:
     adult_ivy "Dude, you dropped something! Hey--"
     "But when he looked up, Akira was halfway down the street. Realizing he was already out of earshot, he heaved a big sigh of frustration. After staring at the MetroCard for a while, he pocketed it."
     
-    play music rain noloop
+    play music rain 
 
     window hide
 

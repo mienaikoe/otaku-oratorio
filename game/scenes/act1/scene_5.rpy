@@ -8,7 +8,7 @@ label scene_5:
     child_akira "Woah, that’s incredible!"
     child_suisei "Hehe, thanks! You said you wanted to become stronger, right? Well, I can teach you the basics of how to fight, and show you some special magic-infused attacks that are especially effective against the Villain!"
 
-    play music fukai_mori noloop
+    play music fukai_mori 
 
     window hide
 

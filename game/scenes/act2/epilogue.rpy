@@ -13,7 +13,7 @@ label epilogue:
     adult_suisei "Yeah… we're not going anywhere"
 
     stop music fadeout 1.0
-    play music wii_startup noloop
+    play music wii_startup 
     
     adult_ivy "Well, just because you just got out of the hospital doesn't mean I'll take it easy on you"
 

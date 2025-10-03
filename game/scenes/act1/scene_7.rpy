@@ -67,7 +67,7 @@ label scene_7:
 
     "Suisei approached them, but it was a bit too fast for their liking and they darted away from her. Akira stayed sitting, and reached out a hand to a cat near him. Suddenly, a cat in the back turned on a boombox and a song began."
 
-    play music we_are noloop
+    play music we_are
 
     window hide
     pause

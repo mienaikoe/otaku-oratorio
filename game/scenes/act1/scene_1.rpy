@@ -23,7 +23,7 @@ label scene_1:
 
     adult_akira "Y-Yeah."
     
-    play music stay_with_me fadeout 0.2 noloop
+    play music stay_with_me fadeout 0.2
 
     "Ivy moved in closer and slung an arm around Akira's shoulder."
 
