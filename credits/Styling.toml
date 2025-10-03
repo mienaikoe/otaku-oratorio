@@ -35,7 +35,7 @@ cardFadeOutTransitionStyleName = "Linear"
 name = "Scroll"
 subsequentGapFrames = 24
 behavior = "SCROLL"
-scrollPxPerFrame = 3.0
+scrollPxPerFrame = 4.0
 
 [[contentStyle]]
 name = "Blurb"
@@ -276,7 +276,7 @@ vMarginBottomPx = 0.0
 bodyLetterStyleName = "Card Small"
 bodyLayout = "PARAGRAPHS"
 paragraphsLineHJustify = "CENTER"
-paragraphsLineWidthPx = 600.0
+paragraphsLineWidthPx = 400.0
 paragraphsParaGapPx = 8.0
 paragraphsLineGapPx = 0.0
 hasHead = true
@@ -318,7 +318,7 @@ hScaling = 1.0
 [[letterStyle]]
 name = "Card Small"
 font = "Archivo Narrow Regular"
-heightPx = 32.0
+heightPx = 27.0
 leadingTopRh = 0.0
 leadingBottomRh = 0.0
 trackingEm = 0.0
@@ -469,7 +469,7 @@ hScaling = 1.0
 [[letterStyle]]
 name = "Name"
 font = "Archivo Narrow Bold"
-heightPx = 36.0
+heightPx = 28.0
 leadingTopRh = 0.0
 leadingBottomRh = 0.0
 trackingEm = 0.0
@@ -559,7 +559,7 @@ hScaling = 1.0
 [[letterStyle]]
 name = "Song Title"
 font = "Archivo Narrow Bold"
-heightPx = 28.0
+heightPx = 26.0
 leadingTopRh = 0.0
 leadingBottomRh = 0.0
 trackingEm = 0.0
@@ -589,7 +589,7 @@ hScaling = 1.0
 [[letterStyle]]
 name = "Title"
 font = "Archivo Narrow Regular"
-heightPx = 96.0
+heightPx = 64.0
 leadingTopRh = 0.0
 leadingBottomRh = 0.0
 trackingEm = 0.0
@@ -645,6 +645,12 @@ heightPx = 160.0
 cropBlankSpace = true
 
 [[pictureStyle]]
+name = "CinecredV.svg 4"
+picture = "CinecredV.svg"
+heightPx = 120.0
+cropBlankSpace = true
+
+[[pictureStyle]]
 name = "renpy-logo.png"
 picture = "renpy-logo.png"
 heightPx = 160.0
@@ -653,4 +659,9 @@ heightPx = 160.0
 name = "renpy-logo.png 2"
 picture = "renpy-logo.png"
 heightPx = 160.0
+
+[[pictureStyle]]
+name = "renpy-logo.png 3"
+picture = "renpy-logo.png"
+heightPx = 120.0
 
