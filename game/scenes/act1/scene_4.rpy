@@ -55,14 +55,54 @@ label scene_4:
     "With a jolt of lightning, Akira was flung backward, and a swarm of ghouls sprawled across the city. They began to unleash havoc upon the town, tearing apart buildings and constructing walls and towers in their place."
 
     "Suisei and Akira prepared to fight."
-
+    
     play music cruel_angels_thesis volume 1.0
 
     window hide
-
     pause
-
     window show
+
+
+    lyrics """
+    Young boy, like a cruel angel's thesis,\nLive up to be a legend...
+    """
+
+    window hide
+    pause
+    window show
+
+    lyrics """
+    Even though clear blue winds\nBeat on the door of my heart,\nYou just smile, looking straight at me
+    
+    Too involved in yearning for\nSomething to hold on to\nThe innocent eyes still know nothing of fate yet.
+
+    But someday you will notice\nOn those shoulders of yours\nThere are strong wings\nTo guide you to the far future.
+
+    A cruel angel's thesis\nWill someday fly high from the window\nIf memories are betrayed by\nThe overflowing, burning pathos.
+
+    Young boy, shine like a legend,\nHolding the sky in your arms.
+    """
+    window hide
+    pause
+    window show
+    
+    lyrics """
+    The cradle of love that sleeps within me\nThere will be a morning that\nA servant of dreams will come for you.
+
+    The moonlight shines on your thin neckline\nI'd stop time in this world\nAnd lock it away for myself, but...
+
+    If there is any meaning\nIn the fate that pulled us together,\nThen I am, yes, the Bible\nThat teaches you of freedom.
+
+    A cruel angel's thesis\nAnd then sorrow comes forth\nWhen the shapes of the dreams you hold in your arms\nCome to life within you.
+
+    Young boy, who shines brighter than anyone else,\nRise to become a legend!
+
+    People weave together love to create history\nAnd so I live on,\nUnable to become a goddess...
+
+    A cruel angel's thesis\nWill someday fly high from the window\nIf memories are betrayed by\nThe overflowing, burning pathos.
+
+    Young boy, shine like a legend,\nHolding the sky in your arms.
+    """
 
     play music forest fadeout 0.5 fadein 0.5 volume 0.3
     child_akira "I thought I was going to die back there."

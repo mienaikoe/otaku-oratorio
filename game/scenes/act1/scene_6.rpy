@@ -28,11 +28,42 @@ label scene_6:
     child_suisei "Oh, it’s fine! We oughta knock this guy down a peg or two - I mean, he’s calling himself Ivy (Motherfuckin’) Oak, and even has a stupid little fan club following him around. Let me take him on!"
     child_akira "OOOKAY then, I guess we’re doing this now! Uhh - Suisei, I choose you!!"
 
-    play music pokemon fadeout 0.5 
+    play music pokemon fadeout 0.5
 
     window hide
     pause
     window show
+
+    lyrics """
+    I wanna be the very best\nLike no one ever was\nTo catch them is my real test\nTo train them is my cause
+
+    I will travel across the land\nSearching far and wide\nTeach Pokémon to understand\nThe power that's inside
+
+    (Pokémon Gotta catch 'em all)\nIt's you and me\nI know it's my destiny (Pokémon)\nOh, you're my best friend\nIn a world we must defend
+
+    (Pokémon Gotta catch 'em all) A heart so true\nOur courage will pull us through\nYou teach me and I'll teach you\nPokémon! Gotta catch 'em all
+
+    Every challenge along the way\nWith courage, I will face\nI will battle every day\nTo claim my rightful place
+
+    Come with me, the time is right\nThere's no better team\nArm in arm, we'll win the fight\nIt's always been our dream
+
+    (Pokémon Gotta catch 'em all)\nIt's you and me\nI know it's my destiny (Pokémon)\nOh, you're my best friend\nIn a world we must defend
+
+    (Pokémon Gotta catch 'em all) A heart so true\nOur courage will pull us through\nYou teach me and I'll teach you\nPokémon! Gotta catch 'em all
+
+    """
+
+    window hide
+    pause
+    window show
+
+    lyrics """
+    (Pokémon Gotta catch 'em all)\nIt's you and me\nI know it's my destiny (Pokémon)\nOh, you're my best friend\nIn a world we must defend
+
+    (Pokémon Gotta catch 'em all) A heart so true\nOur courage will pull us through\nYou teach me and I'll teach you\nPokémon! Gotta catch 'em all
+
+    Pokémon!
+    """
 
     play music mischief fadeout 0.5 volume 0.5
 

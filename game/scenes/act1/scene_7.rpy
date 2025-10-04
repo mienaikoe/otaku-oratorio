@@ -87,11 +87,10 @@ label scene_7:
     window show
 
     lyrics """
-    Gathering up all the pieces of our dreams\n
-    We're going to search for everything we're looking for
-    """
+    Gathering up all the pieces of our dreams\nWe're going to search for everything we're looking for
 
-    lyrics "One Piece!"
+    One Piece!
+    """
 
     window hide
     pause
@@ -100,31 +99,21 @@ label scene_7:
     lyrics """
     Compasses only cause delays\n
     Filled with excitement, I take the helm
-    """
 
-    lyrics """
     If we can prove the dusty old treasure map,\n
     Then it's not a legend anymore!
-    """
 
-    lyrics """
     It's alright if our personal problems\n
     Get on someone else's nerves\n
     Because we think about them too much
-    """
 
-    lyrics """
     Gathering up all of our dreams\n
     And going to search for our desires
-    """
-
-    lyrics """
+ 
     A coin in the pocket, and\n
     You wanna be my friend?
-    """
 
-    lyrics """
-    We are, we are on the cruise! We are!\n
+    We are, we are on the cruise!\nWe are!
     """
 
     window hide
@@ -134,50 +123,32 @@ label scene_7:
     lyrics """
     Even though I believe everything I'm told\n
     When my shoulders are shoved, I take a one-step lead
-    """
 
-    lyrics """
     If we ever meet again, I'll tell you all about\n
     What I've been doing and where I'm headed next
-    """
 
-    lyrics """
     So being in a pinch is always\n
     A good opportunity to appeal to someone
-    """
 
-    lyrics """
     With excess self-consciousness!\n
     Full speed through the stingy night!
-    """
 
-    lyrics """
     I'm not interested in treasure anyway\n
     A romance in the pocket, and\n
     You wanna be my friend?
-    """
 
-    lyrics """
     We are, we are on the cruise! We are!\n
-    """
 
-    lyrics """
     Gathering up all of our dreams\n
     And going to search for our desires
-    """
 
-    lyrics """
     A coin in the pocket, and\n
     You wanna be my friend?
+
+    We are, we are on the cruise!\nWe are!
+
+    We are!
     """
-
-    lyrics """
-    We are, we are on the cruise! We are!\n
-    """
-
-    lyrics "We are!"
-
-    lyrics "We are!"
 
     jump scene_8
 

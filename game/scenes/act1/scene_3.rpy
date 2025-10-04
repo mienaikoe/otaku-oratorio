@@ -20,8 +20,24 @@ label scene_3:
 
     nurse "Stick with it. Your friends are waiting for you."
 
-    stop sound fadeout 1.0
-    stop music fadeout 1.0
+    stop sound fadeout 0.5
+    stop music fadeout 0.5
+
+    window hide
+    pause
+    window show
+
+    lyrics """
+    Why do we cling together?\nWhy do we give punishment to lesser hearts?
+
+    The Planet did not forgive us\nDid not forgive us\nThe Planet did not forgive us\nDid not forgive us
+
+    The pulse of veins flows through the earth\nA faint, faint pulse\nOf a heart drawn to death
+
+    A gentle life returns to the planet\nIs it necessary to sacrifice souls?
+
+    Why do we cling together?\nWhy do we beg for forgiveness?\nIn the Promised Land?
+    """
 
     scene solid_white with flash
 

@@ -42,8 +42,8 @@ define flash = Fade(0.5, 0, 0.5, color="#FFFFFF")
 label start:
     stop music fadeout 1.0
 
-    # jump overture # for act 1
+    jump overture # for act 1
     # jump prologue # for act 2
-    jump scene_8
+    # jump scene_8
 
     return

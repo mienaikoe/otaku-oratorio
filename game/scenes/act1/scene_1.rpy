@@ -25,6 +25,10 @@ label scene_1:
     
     play music stay_with_me fadeout 0.2
 
+    window hide
+    pause
+    window show
+
     "Ivy moved in closer and slung an arm around Akira's shoulder."
 
     adult_ivy "Yeah man, we'll always be here for you. Especially me."
