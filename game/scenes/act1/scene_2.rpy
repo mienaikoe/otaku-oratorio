@@ -3,7 +3,7 @@ label scene_2:
     scene street
     with dissolve
 
-    play music p5_regret fadeout 0.5 fadein 0.5
+    play music p5_regret fadeout 0.5 fadein 0.5 volume 0.3
 
     "Ivy ran out of the bar and down the sidewalk after Akira."
     adult_ivy "Akira! Hey, wait up!"
@@ -20,12 +20,10 @@ label scene_2:
     adult_ivy "Dude, you dropped something! Hey--"
     "But when he looked up, Akira was halfway down the street. Realizing he was already out of earshot, he heaved a big sigh of frustration. After staring at the MetroCard for a while, he pocketed it."
     
-    play music rain 
+    play music rain volume 1.0
 
     window hide
-
     pause
-
     window show
 
     lyrics """
@@ -37,23 +35,27 @@ label scene_2:
     
     I walk in the rain, in the rain\nIs it right or is it wrong\nAnd is it here that I belong
 
-    I don't hear a sound\nSilent faces in the ground\nA quiet screams, but I refuse to listen
+    I don't hear a sound\nSilent faces in the ground\nQuiet screams, but I refuse to listen
 
     If there is a hell\nI'm sure this is how it smells\nWish this were a dream, but no, it isn't
 
     Walk in the rain\nIn the rain, in the rain
     
     I walk in the rain, in the rain\nAm I right or am I wrong\nAnd is it here that I belong
+    """
 
+    window hide
+    pause
+    window show
+
+    lyrics """
     Walk in the rain\nIn the rain, in the rain
     
     I walk in the rain, in the rain\nWhy do I feel so alone\nFor some reason I think of home
     """
 
     window hide
-
     pause
-
     window show
 
     stop music
@@ -65,7 +67,7 @@ label scene_2:
     adult_ivy "Akira, look out!"
 
     stop music fadeout 1.0
-    scene solid_white with fade
+    scene solid_white with flash
 
     pause 2.0
 

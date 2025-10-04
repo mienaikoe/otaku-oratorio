@@ -1,5 +1,5 @@
 label scene_7:
-    scene ships
+    scene ships with fade
     play music beach_party fadein 5.0 volume 0.1
 
     "The group spotted a clearing in the trees. Sensing danger, or maybe fun, Ivy scouted ahead."

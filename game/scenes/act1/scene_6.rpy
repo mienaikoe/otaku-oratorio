@@ -3,7 +3,7 @@ label scene_6:
     scene forest
     with dissolve
 
-    play music mischief fadeout 0.5
+    play music mischief fadeout 0.5 volume 0.5
 
     "Having thoroughly trained, Akira and Suisei ventured out into the wilderness beyond the town. They set course for the west, to the lands of JerSeykai, where the villain sat safe in his castle."
     "Little did they know that someone else was waiting to spring a trap upon them from the shadow of a tree."
@@ -12,10 +12,11 @@ label scene_6:
     child_ivy "HA-HA!! I’ve been waiting for you two!"
     both_1 "(screams)"
     child_akira "Wha-… wait, what the fuck? Ivy?? What are you doing here? And who are those girls following you around?"
+
     child_ivy "Of course you know me. I’m Ivy (Motherfuckin’) Oak."
     fangirls "Ooooh!"
-
     play sound [ "<silence 4.5>", airhorn ]
+
     child_ivy "and I’m on a quest to stomp every unsuspecting Pokemon trainer in my path!!"
     child_akira "HUH?? Pokemon trainer?"
     child_suisei "(trying desperately trying to hold in her laughter.)"
@@ -30,21 +31,22 @@ label scene_6:
     play music pokemon fadeout 0.5 
 
     window hide
-
     pause
-
     window show
 
-    play music mischief fadeout 0.5
+    play music mischief fadeout 0.5 volume 0.5
 
     child_ivy "Haha, you are quite the tough one, my friend. But I ain’t done yet! Raticate, I choose you! (pulls out metrocard) Wait… huh?"
     child_akira "Uhh, isn’t that a MetroCard? Why are you carrying that around in this world?"
 
-    play music undertale_his_theme fadeout 0.5
+    play music undertale_his_theme fadeout 0.5 volume 0.3
+
     child_ivy "This? I… don’t know… it’s just something that’s always been sitting uselessly in my pocket, but for some reason I’ve never had the heart to throw it away… I’ve just got this feeling that it belongs to someone…" 
     child_ivy "...important to me…" 
     "Ivy looked up and furrowed his brows at Akira, as if trying desperately to remember something."
-    play music mischief fadeout 0.5
+
+    play music mischief fadeout 0.5 volume 0.5
+
     child_akira "…I… see… Well, to be honest, I don’t really want to fight you, because you remind me of one of my best friends! How about you join our team? We’re on our way to defeat the villain of this world, and we need all the strength that we can get! So, truce?"
     child_ivy "Hmm… well, what’s in it for me?"
     child_akira "Uhh, well I’m sure that if you joined us you’d become a much stronger Pokemon trainer, especially if we defeat the villain. I mean, if we stomp the villain, then there’s nobody else we can’t stomp, right?"

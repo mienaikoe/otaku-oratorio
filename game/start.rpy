@@ -36,6 +36,8 @@ image park = "town.png" # MISSING IMAGE
 image solid_black = Solid("#000000")
 image solid_white = Solid("#FFFFFF")
 
+define flash = Fade(0.5, 0, 0.5, color="#FFFFFF")
+
 # The game starts here.
 label start:
     stop music fadeout 1.0

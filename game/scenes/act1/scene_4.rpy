@@ -1,13 +1,13 @@
 label scene_4:
 
-    scene town
-    with dissolve
-
-    play music forest fadeout 0.5 fadein 0.5
+    scene solid_white with flash
+    play music forest fadeout 0.5 fadein 0.5 volume 0.3
 
     "Now, I hear you all asking, “Wait a second my beautiful, smart, funny narrator… did the main character just die halfway through the first act?”"
 
     "And first, I’ll say… “Thank you, you’re so charming.” And to answer your question, I’d like to remind you that we are the Otaku Choir. And we take our isekai narratives quite seriously."
+
+    scene town with dissolve
 
     "Come with me as we find Akira passed out on the branch of a tree in a bustling JRPG town, no longer in his adult form, but… smaller."
 
@@ -40,18 +40,23 @@ label scene_4:
     child_suisei "Akira! This could be your destiny!"
     child_akira "Oh wow, you really think so? Well, I don’t know what else I’d be doing here otherwise, so if you say so, then I must be one of those heroes! All right! Let’s do this!"
     "Akira got out of bed with renewed vigor and walked straight out the door. Shocked at his incredible recovery, Suisei stumbled after him."
-
     child_suisei "Wait, you’ve decided that quickly? Hang on a sec-"
-    "Before she could stop him, Akira opened the door and marched confidently outside. He looked up, and saw darkness across the sky. The townspeople fled into their homes in terror."
+    "Before she could stop him, Akira opened the door and marched confidently outside." 
+    
+    stop music fadeout 1.0
 
+    "He looked up, and saw darkness across the sky. The townspeople fled into their homes in terror."
     "Akira approached a glowing cloud that lingered in the air in front of him."
     child_suisei "Akira, don’t touch that!"
     child_akira "Why, what’s it--?"
+
+    play sound electric_shock volume 1.0
+
     "With a jolt of lightning, Akira was flung backward, and a swarm of ghouls sprawled across the city. They began to unleash havoc upon the town, tearing apart buildings and constructing walls and towers in their place."
 
     "Suisei and Akira prepared to fight."
 
-    play music cruel_angels_thesis 
+    play music cruel_angels_thesis volume 1.0
 
     window hide
 
@@ -59,7 +64,7 @@ label scene_4:
 
     window show
 
-    play music forest fadeout 0.5 fadein 0.5
+    play music forest fadeout 0.5 fadein 0.5 volume 0.3
     child_akira "I thought I was going to die back there."
 
     child_suisei "And you honestly might’ve, if I hadn’t stepped in to help you out."

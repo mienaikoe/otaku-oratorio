@@ -7,7 +7,7 @@ label scene_3:
 
     pause 1.0
 
-    play music bittersweet volume 0.5
+    play music bittersweet volume 0.3
     play sound ekg volume 0.1 loop
 
     "Akira was laid up in a hospital bed, bandaged all over and hooked up to all sorts of machines."
@@ -23,10 +23,10 @@ label scene_3:
     stop sound fadeout 1.0
     stop music fadeout 1.0
 
+    scene solid_white with flash
+
     window hide
-
     pause
-
     window show
 
     jump scene_4
