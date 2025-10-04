@@ -3,7 +3,7 @@ label scene_1:
     scene bar
     with dissolve
 
-    play music plastic_love fadeout 0.5 fadein 0.5
+    play music plastic_love fadeout 0.5 fadein 0.5 volume 0.3
 
     "Let us now fast-forward thirteen years, to October of 2025, as we find our three friends at a karaoke bar in Manhattan. Akira was noticeably more quiet and reserved than before, especially when compared to his two livelier friends."
 

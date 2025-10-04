@@ -66,7 +66,7 @@ label overture:
 
     $ renpy.movie_cutscene("video/ssbb_intro.webm")
 
-    play music ssbb_menu volume 0.3
+    play music ssbb_menu volume 0.2
 
     child_akira "How could you skip the intro?!"
 
