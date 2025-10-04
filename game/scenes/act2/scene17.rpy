@@ -37,7 +37,7 @@ label scene17:
     teen_suisei "Akira…"
     teen_akira "Too bad. You two actually had a chance in a place like this. "
     teen_suisei "Shut up!"
-    teen_akira "But now you're fated to die here."
+    teen_akira "But now you're fated to die."
 
     play music liberi_fatali 
 
@@ -84,7 +84,7 @@ label scene17:
     Incendite tenebras mundi
     """
 
-    teen_ivy "He's too strong, Sui! I can't hold on much longer!"
+    teen_ivy "Suisei, I think I know what I have to do!"
     teen_suisei "I'm thinking!"
 
     """
@@ -92,8 +92,8 @@ label scene17:
     Diebus fatalibus
     """
 
-    teen_ivy  "Please help us!"
-    teen_akira "No one can save you here!"
+    teen_ivy  "Spirits of the metrocard, please help us!"
+    teen_akira "Hah! No one can save you now!"
 
     """
     Fithos Lusec Wecos Vinosec
@@ -102,17 +102,17 @@ label scene17:
     Fithos Lusec Wecos Vinosec
     """
 
-    # play sound "bus_approaching.mp3"
+    play sound bus_approaching
 
     """Ahhhhh, AHHHHHHH."""
 
-    scene solid_white
+    scene solid_white with flash
     stop music
 
-    "Akira braced for impact as mythical bus approached. But it slowed to a stop. And the door opened."
+    "A bus appeared from the great beyond, hurtling towards him at great speed. Akira braced for impact as mythical bus approached. But, to his surprise, the bus slowed to a stop. And the door opened."
 
     "Suisei walked slowly toward Akira, and took his hand."
 
-    "He rose and faced her, then boarded the bus."
+    "He rose and faced her, then she led him onto the bus."
 
     jump scene18

@@ -63,8 +63,13 @@ label scene14:
     mother "But I lost track of him when I went on this quest. I don't know if he's still down there but he'll surely help you along your journey if he is."
     teen_ivy "Sui, maybe we should check that out."
     teen_suisei "Maybe. Let's prepare for a long journey then."
-    mother "If you're ever in trouble, don't forget to ask for help."
-    teen_suisei "Thank you."
+
+    "The two hurried to pack as Akira’s mom told them stories from Akira’s childhood." 
+    
+    "Once they’d finished packing, they turned to her to say goodbye."
+
+    mother "If you’re ever in trouble, there’s a special kind of magic in that card of yours. Don’t forget to ask for help."
+    teen_suisei "Thank you. I’ll remember that."
 
     "And with a reverent bow, the two left the hut and started on a new adventure into the mountains."
 

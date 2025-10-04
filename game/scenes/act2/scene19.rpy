@@ -1,11 +1,11 @@
 label scene19:
     scene hospital with fade
 
-    "Akira lay in a hospital bed, wondering if he was still alive. He opened his eyes, then moved his arms and toes, then propped himself up to look around."
+    "Akira lay in a hospital bed, wondering if he was still alive. He opened his eyes, then moved his arms and toes."
 
     adult_akira "Am I dead?"
     
-    "Suisei and Ivy entered the room, and saw him propped up."
+    "Ivy and Suisei, who were sitting next to Akira, jolted awake at the sound of his voice."
 
     adult_suisei "Akira!"
     adult_akira "Why do I feel like I got hit by a bus?"

@@ -27,15 +27,11 @@ label epilogue:
     $ renpy.music.set_volume(1.0, delay=0.0, channel='sound')
     scene ssbb_credits with fade 
     
-    adult_akira "Final destination, no items, fox only. Let's go!"
+    adult_akira "Final destination, no items, Fox only. Let's go."
     adult_akira "And no skipping the intro!"
 
     window hide
     pause
     pause
     pause
-    # $ renpy.movie_cutscene("video/ssbb_credits.mpg")
-
-
-
 
