@@ -1,5 +1,8 @@
 label scene19:
-    scene hospital with fade
+    scene hospital with flash
+
+    play music bittersweet volume 0.2
+    play sound ekg volume 0.3 loop
 
     "Akira lay in a hospital bed, wondering if he was still alive. He opened his eyes, then moved his arms and toes."
 
@@ -17,25 +20,15 @@ label scene19:
     adult_suisei "Was I a badass?"
     adult_akira "Yea. You were a badass."
 
-    """
-    usagi oishi ka no yama
-    ko-buna tsurishi ka no kawa
-    yume wa ima mo megurite
-    wasure-gataki furusato
-    """
+    stop music fadeout 1.0
+    stop sound fadeout 1.0
 
-    """
-    ika ni imasu chichi-haha
-    tsutsuganashi ya tomogaki  
-    ame ni, kaze ni tsukete mo
-    omoi-izuru furusato
-    """
+    lyrics"""
+    I chased after rabbits on that mountain.\nI fished for minnow in that river.\nI still dream of those days even now\nOh, how I miss my old country home.\n
+   
+    Father and mother―are they doing well?\nIs everything well with my old friends?\nWhen the rain falls, when the wind blows,\nI stop and recall of my old country home.\n
 
-    """
-    kokorozashi o hata shite 
-    itsu no hi ni ka kaeran
-    yama wa aoki furusato    
-    mizu wa kiyoki furusato
+    Some day when I have done what I set out to do,\nI'll return home one of these days\nWhere the mountains are green, my old country home,\nWhere the waters are clear, my old country home.\n
     """
 
     jump epilogue

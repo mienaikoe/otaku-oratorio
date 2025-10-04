@@ -12,96 +12,37 @@ label scene10:
 
     play music hikaru_nara 
 
-    """
-    Ameagari no niji mo
-    rin tosaita hana mo
-    irozuki afuredasu
-    Akane-iro no sora
-    aogu kimi ni
-    ano hi koi ni ochita
+    window hide
+    pause
+    window show
+
+    lyrics """
+    The rainbow after the rain, the flowers that bloom after the cold,\nBoth are overflowing in different colors\nI fell in love with you that day\nWhen I saw you gazing up at the crimson sky\n
+
+    That moment – a single frame in a drama film –\nWon’t ever vanish, because I’ve engraved it in my heart\n
+
+    You, it was you who taught me\nIf you shine light into the pitch black, it’ll turn into a starry sky\nDon’t hide your sorrow with a smile any longer\nBecause any one of those twinkling stars is enough to make you shine\n
+
+    Having forgotten to sleep, the morning sun pierces right through me\nBut when I see you, I forget all about the headache\nAnd grouchiness I brought with me\n
+
+    The quiet is so romantic – your voice circles around my entire body\nLike a sugar cube melting in tea\n
+
+    You, it was you who smiled at me\nIf you shine light on your tears, they’ll turn into shooting stars\nYour hands have been hurt, but don’t let go\nBecause tomorrow comes from a sky full of wishes\n
+
+    The light that guided me was you\nYou pulled me in and I started to run\nOur paths began to cross without us even realizing it\nSee, if you shine your light, right here, right now…\n
+
+    You, it was you who taught me\nThat because the darkness will come to an end…\n
+
+    You, it was you who taught me\nIf you shine light into the pitch black, it’ll turn into a starry sky\nDon’t hide your sorrow with a smile any longer\nBecause any one of those twinkling stars is enough to make you shine\n
+
+    The answer is always… coincidence? Certainty?\nOne day the path you chose will become your fate\nThe hopes and fears we held onto\nWill surely become the light that moves us forward\n
     """
 
-    """
-    Shunkan no DORAMACHIKKU
-    FIRUMU no naka no hito-koma mo
-    Kienai yo kokoro ni
-    kizamu kara
-    """
-
-    """
-    Kimi da yo kimi nanda yo
-    oshiete kureta
-    Kurayami mo hikaru nara
-    hoshizora ni naru
-    Kanashimi wo egao ni
-    mou kakusanai de
-    Kirameku donna hoshi mo
-    kimi wo terasu kara
-    """
-
-    """
-    Nemuri mo wasurete
-    mukaeta asahi ga
-    yatara to tsukisasaru
-    Teikiatsu hakobu
-    zutsuu datte
-    wasureru kimi ni aeba
-    """
-
-    """
-    Seijaku wa ROMANTIKKU
-    koucha ni toketa SHUGAA no you ni
-    Zenshin ni meguru yo
-    kimi no koe
-    """
-
-    """
-    Kimi da yo kimi nanda yo
-    egao wo kureta
-    Namida mo hikaru nara
-    ryuusei ni naru
-    Kizutsuita sono te wo
-    mou hanasanai de
-    Negai wo kometa sora ni
-    ashita ga kuru kara
-    """
-
-    """
-    Michibiite kureta hikari wa kimi da yo
-    Tsurarete boku mo hashiridashita
-    Shiranu ma ni KUROSU shihajimeta
-    Hora ima da koko de
-    hikaru nara
-    """
-
-    """
-    Kimi da yo kimi nanda yo
-    oshiete kureta
-    kurayami wa owaru kara
-    """
-
-    """
-    Kimi da yo kimi nanda yo
-    oshiete kureta
-    Kurayami mo hikaru nara
-    hoshizora ni naru
-    Kanashimi wo egao ni
-    mou kakusanai de
-    Kirameku donna hoshi mo
-    kimi wo terasu kara
-    """
-
-    """
-    Kotae wa itsudemo Guuzen? Hitsuzen?
-    Itsuka eranda michi koso unmei ni naru
-    Nigirishimeta sono
-    kibou mo fuan mo
-    Kitto futari wo ugokasu
-    hikari ni naru kara
-    """
+    window hide
+    pause
+    window show
 
     stop music fadeout 1.0
-    pause 1.0
 
     teen_suisei "Wowww, I didn't think you'd be that good at DDR!"
     teen_akira "Yeah, I guess the nervous energy has to be put to use somehow."

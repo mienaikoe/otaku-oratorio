@@ -1,9 +1,11 @@
 label scene17:
 
     scene castle_interior with fade
-    play music bowser_galaxy volume 0.5
+    play music bowser_galaxy fadein 1.0 fadeout 1.0 volume 0.1
 
-    "The castle was in ruins since the last time they were there. The windows were broken, and the torches were all unlit. Suisei took a torch from the wall, added some oil from her bag and lit it with a dagger and a rock from the floor. A thousand spiders crawled away at the bright light."
+    "The castle was in ruins since the last time they were there. The windows were broken, and the torches were all unlit." 
+    
+    "Suisei took a torch from the wall, added some oil from her bag and lit it with a dagger and a rock from the floor. A thousand spiders crawled away at the bright light."
 
     teen_suisei "You'd think with all these minion ghost things, one of them could pick up a broom."
 
@@ -21,6 +23,9 @@ label scene17:
 
     teen_suisei "Come out and fight!"
 
+    stop music fadeout 1.0
+    play music rites fadein 1.0 volume 0.3
+
     "The eyes closed and suddenly a being jumped from the ceiling and onto the ground. Akira stood before them, looking haggard and threatening."
 
     teen_ivy "Oh you got… hairier."
@@ -35,71 +40,89 @@ label scene17:
     teen_akira "And Suisei."
     teen_akira "Well, Ivy just can't get rid of you, can he?"
     teen_suisei "Akira…"
+
+    stop music fadeout 1.0
+
     teen_akira "Too bad. You two actually had a chance in a place like this. "
     teen_suisei "Shut up!"
     teen_akira "But now you're fated to die."
 
-    play music liberi_fatali 
+    stop music fadeout 1.0 # back button protection
 
-    """
+    lyrics """
     Fithos lusec wecos vinosec
     """
+
+    play music liberi_fatali volume 1.0
+
+    window hide
+    pause
+    window show
 
     teen_akira "Ready your weapons! I won't let you get away this time."
 
-    """
-    Fithos lusec wecos vinosec
-    Fithos lusec wecos vinosec
-    """
-
-    """
-    Excitate vos e somno, liberi mei
-    Cunae non sunt
+    lyrics """
+    Fithos lusec wecos vinosec\nFithos lusec wecos vinosec\n
     """
 
+    lyrics """
+    Wake from your sleep, my children,\nThe childhood cradles are gone.\n
     """
-    Esxcitate vos e somno, liberi fatali
-    Somnus non est
+
+    window hide
+    pause
+    window show
+
+    lyrics """
+    Wake from your sleep, fated children,\nThe peace is gone.\n
     """
 
     teen_suisei "Akira, you don't have to do this. We can help you."
     teen_akira "Help me? Hah. All you've ever caused me is pain!"
 
-    """
-    Surgite Inventite
-    """
-
-    """
-    Veni hortum veritatis
-    Horti verna veritatis
+    lyrics """
+    Arise!\nSearch!\n
     """
 
-    """
-    Ardente veritate
-    Urite mala mundi
+    window hide
+    pause
+    window show
+
+    lyrics """
+    Discover the true Garden\nThe garden of vernal truth\n
     """
 
+    lyrics """
+    Fiery truth\nBurn the evil of the world\n
     """
-    Ardente veritate
-    Incendite tenebras mundi
+
+    window hide
+    pause
+    window show
+
+    lyrics """
+    Fiery truth\nLight the darkness of the world\n
     """
 
     teen_ivy "Suisei, I think I know what I have to do!"
-    teen_suisei "I'm thinking!"
 
+    lyrics """
+    Prevail, children\n
     """
-    Valete, liberi
-    Diebus fatalibus
+
+    window hide
+    pause
+    window show
+
+    lyrics """
+    In the fated days\n
     """
 
     teen_ivy  "Spirits of the metrocard, please help us!"
     teen_akira "Hah! No one can save you now!"
 
-    """
-    Fithos Lusec Wecos Vinosec
-    Fithos Lusec Wecos Vinosec
-    Fithos Lusec Wecos Vinosec
-    Fithos Lusec Wecos Vinosec
+    lyrics """
+    Fithos Lusec Wecos Vinosec\nFithos Lusec Wecos Vinosec\nFithos Lusec Wecos Vinosec\nFithos Lusec Wecos Vinosec\n
     """
 
     play sound bus_approaching
@@ -109,7 +132,13 @@ label scene17:
     scene solid_white with flash
     stop music
 
-    "A bus appeared from the great beyond, hurtling towards him at great speed. Akira braced for impact as mythical bus approached. But, to his surprise, the bus slowed to a stop. And the door opened."
+    window hide
+    pause
+    window show
+
+    "A bus appeared from the great beyond, hurtling towards him at great speed. Akira braced for impact as mythical bus approached." 
+    
+    "But, to his surprise, the bus slowed to a stop. And the door opened."
 
     "Suisei walked slowly toward Akira, and took his hand."
 

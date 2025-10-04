@@ -6,7 +6,7 @@ label overture:
         zoom 2.
     with dissolve
 
-    play music jojo_peaceful_street_corner volume 0.4
+    play music jojo_peaceful_street_corner volume 0.1
 
     "The year was 2012. The Olympics were in London, Obama was about to be re-elected, and the timeline still kind of made sense."
 

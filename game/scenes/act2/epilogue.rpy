@@ -3,7 +3,7 @@ image ssbb_credits = Movie(play="video/ssbb_credits.webm", loop=False)
 label epilogue:
 
     scene living_room_day with fade
-    play music jojo_peaceful_street_corner volume 0.4
+    play music jojo_peaceful_street_corner volume 0.1
 
     "Akira, Suisei, and Ivy returned to the living room where they used to play as children. Ivy quickly wired up the Wii while Akira dusted it off."
 

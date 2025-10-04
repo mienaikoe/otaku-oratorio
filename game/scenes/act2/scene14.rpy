@@ -2,22 +2,30 @@ label scene14:
 
     scene village with fade
     stop music fadeout 1.0
-    # play music "ashitaka_to_san.mp3"
-    # Piano playing from Joanna
 
     "The next morning, the two decided to travel to Suisei's old witch hut to gather supplies for their adventure back to the Villain's castle. They reminisced about their old adventures as they traveled their old trails."
 
-    """
-    haruka kanata ni
-    nemuru hito yo "hitormi tojireba hirogaru
-    ano hi no yasashi koe eien no hikari ga"
-    tsuchi ni kaeru you ni daichi no yurushi ga
-    todoku made shinjite tomo ni ikiru koto
-    soshite umareru tsuyosa miagete tooku hanaretemo
-    kokoro wo hitotsu ni musubu ai kibou no sora
+    window hide
+    pause
+    window show
+
+    # Piano playing from Joanna
+
+    lyrics """
+    Far away, on the other side, is a sleeping person\nIf you close your eyes, it spreads out\nThe gentle voice of that day\n
+    
+    It seems like eternal light is returning to the earth\nUntil it reaches the forgiveness of the earth\n
+
+    Believe in living together\nAnd in the strength that is born\n
+    
+    Look up, even if you go far away\nA love that binds (two) hearts into one, a sky of hope\n
     """
 
-    stop music
+    stop music # protects against background music when hitting the back button
+
+    window hide
+    pause
+    window show
 
     play music bittersweet fadein 1.0 volume 0.5
 

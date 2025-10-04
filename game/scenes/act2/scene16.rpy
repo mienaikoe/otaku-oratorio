@@ -1,7 +1,7 @@
 label scene16:
 
     scene times_square with fade
-    play music rites fadein 1.0 volume 0.5
+    play music rites fadein 1.0 volume 0.3
 
     "Suisei and Ivy entered a dark cavern. Across the walls lay spiderwebs, cast across the open air. Hidden behind walls of rock and dirt was the occasional tile or mosaic artwork: A sign that something had been here before."
 
@@ -27,14 +27,14 @@ label scene16:
 
     "She took the metrocard and examined the slot, trying a few things but nothing happened."
 
-    play sound metrocard_fail2 volume 0.5
+    play sound metrocard_fail2 volume 0.6
 
     teen_ivy "Hey, that's mine. Give it back."
 
     "Ivy reached for the metrocard, but Suisei pulled it away before he could lay his hands on it."
 
     stop music fadeout 1.0
-    play sound metrocard_success volume 0.6 
+    play sound metrocard_success volume 0.7
 
     teen_suisei "Ivy you don't even know how to use magic. You could hurt yourself. I have to dispel the ward with an incantation and then use a binding spell to--"
 
@@ -72,52 +72,66 @@ label scene16:
 
     stop music fadeout 1.0
 
-    # play music "kimi_wo_nosete.mp3" fadein 1.0 # TODO: Missing Backing Track
+    # kimi wo nosete
+    lyrics """
+    The horizon spreading wide,\n
+    it's brightness fills the sky\n
+    Why it shines so beautifully?\n
+    Because behind it's where you hide.\n
+    
+    All the yearning that I feel,\n
+    for the many lights I see.\n
+    Is all because the warmth that they give\n
+    reminds me so much of you.\n
 
-    """
-    Ano chiheisen. Kagayaku no wa
-    Doko ka ni kimi wo. Kakushite iru kara
-    Takusan no hi ga. Natsukashii no wa
-    Ano doreka hitotsu ni Kimi ga iru kara
-    """
+    Let our journey start from here,\n
+    with a slice of bread you baked.\n
+    Everything that you'll need is in your bag,\n
+    all you'll need to take.\n
 
-    """
-    Saa, dekakeyou!
-    Hitokire no PAN NAIFU, RANPU kaban ni
-    Tsumekonde
-    """
+    My father left for me\n
+    this flaming soul I feel.\n
+    My mother gave to me\n
+    this heart with truth I seek.\n
 
-    """
-    Tousan ga nokoshita. Atsui omoi
-    Kaasan ga kureta. Ano manazashi
-    """
+    As the world will make its turn,\n
+    it will hide you as it might.\n
+    All the twinkle in its eyes,\n
+    all the sparkle of it's light.\n
 
-    """
-    Chikyuu wa mawaru. Kimi o kakushite
-    Kagayaku hitomi. Kirameku tomoshibi
-    Chikyuu wa mawaru. Kimi o nosete
-    Itsuka kitto de au. Bokura o nosete
-    """
-
-    """
-    Toosan ga nokoshita. Atsui omoi
-    Kaasan ga kureta. Ano manazashi
-    """
-
-    """
-    Chikyuu wa mawaru. Kimi o kakushite
-    Kagayaku hitomi. Kirameku tomoshibi
-    Chikyuu wa mawaru. Kimi o nosete
-    Itsuka kitto deau. Bokura o nosete
+    As the world will make its turn,\n
+    it will take you on its wings\n
+    One day I know we'll finally see,\n
+    on its wings, you and I.\n
     """
 
-    stop music
+    window hide
+    pause
+    window show
 
-    scene castle_exterior with fade
+    """
+    My father left for me\n
+    this flaming soul I feel.\n
+    My mother gave to me\n
+    this heart with truth I seek.\n
+
+    As the world will make its turn,\n
+    It will hide you as it might.\n
+    All the twinkle in its eyes,\n
+    all the sparkle of it's light.\n
+
+    As the world will make its turn,\n
+    it will take you on its wings\n
+    One day I know we'll finally see,\n
+
+    on its wings, yes you and I.\n
+    """
 
     teen_ivy "I feel like a brand new fighter!"
     teen_suisei "And an even stronger sorcerer. Thank you for your help. We'll use it wisely."
     father "You two be careful out there. And remember, if you see something, say something."
+
+    scene castle_exterior with fade
 
     "The two got off the train and waved goodbye to Akira's father as his train rode off into the ether. Suisei looked at her hands, and Ivy looked at his sword."
 

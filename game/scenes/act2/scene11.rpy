@@ -24,78 +24,88 @@ label scene11:
 
     play music hanggang_sa_huli 
 
-    """
-    Sa aking puso'y nag-iisa
-    Mayroong himig na
-    Kumakatok sa pinto ng aking ala-ala
+    window hide
+    pause
+    window show
+
+    lyrics """
+    When my heart is alone\n
+    There is a melody that knocks on the door of my memories\n
+
+    I don’t even need to gaze into your eyes\n
+    You’re the only one I see\n
+
+    My memories seem like new\n
+    You are there even in my dreams\n
+
+    And even if the world changes\n
+    I’ll always be here\n
+
+    I may not be meant for you\n
+    Still, my heart will not change\n
+
+    There is no one elsе\n
+    No one else that I will long for\n
+
+    My lovе is yours (My love is yours)\n
+    Until the end\n
     """
 
-    """
-    'Di na dapat tumitig pa sa 'yong mga mata
-    Ngayon, ikaw na lang ang nakikita
+    window hide
+    pause
+    window show
+
+    lyrics """
+    It’s probably best that I forget about you\n
+    My love is like the wind that you never seem to feel (Never seem to feel)\n
+
+    No need to gaze into your eyes\n
+    Because you’re the only one I see\n
+
+    Whatever hope I had has disappeared\n
+    But my love for you remains\n
+
+    And even if the world changes\n
+    I’ll always be here\n
+
+    I may not be meant for you\n
+    Still, my heart will not change\n
+
+    There is no one else\n
+    No one else that I will long for\n
+
+    My love is yours (My love is yours)\n
+    Until the end\n
+
+    If our paths cross then we are meant for each other\n
+    Had I said everything then, would things be different now?\n
+
+    With every breath, I pray that I could be with you\n
+    And if this is our last moment together, I want you to know that\n
+
+    I love you\n
+
+    I love you\n
+
+    I love you\n
     """
 
-    """
-    Ang ala-ala ko'y 'di nagbago
-    Sa panaginip ko ay naroon ka
+    window hide
+    pause
+    window show
+
+    lyrics """
+    There is no one else\n
+    No else that I will long for\n
     """
 
+    lyrics """
+    My love is yours (My love is yours)\n
+    Until the end\n
     """
-    At kahit na ang mundo ay mag-iba
-    Ako'y laging nandirito
-    'Di man ako para sa 'yo
-    Puso'y hindi magbabago
-    Walang iba, walang iba
-    Wala nang hahanapin pa
-    Pag-ibig ko'y sa 'yo
-    Sa iyo hanggang sa huli
-    """
-
-    """
-    Siguro nga'y nararapat na ika'y limutin na
-    Pag-ibig ko'y isang hangin na 'di mo madarama
-    """
-
-    """
-    'Di na dapat tumitig pa sa 'yong mga mata
-    'Pagkat ikaw pa rin ang nakikita
-    """
-
-    """
-    Tanging pag-asa ko'y biglang naglaho
-    Ngunit pag-ibig ko'y di nawala
-    """
-
-    """
-    At kahit na ang mundo ay mag-iba
-    Ako'y laging nandito
-    'Di man ako para sa 'yo
-    Puso'y hindi magbabago
-    Walang iba, walang iba
-    Wala nang hahanapin pa
-    Pag-ibig ko'y sa 'yo
-    Sa iyo hanggang sa huli
-    """
-
-    """
-    Kung pinagtagpo tayong dal'wa'y para sa isa't isa
-    At kung nasabi ko ba ang lahat noon ay may magbabago ba?
-    Sa aking bawat paghinga, dalangin ay makapiling ka
-    At kung ito na ang huli, nais kong malaman mo na
-    """
-
-    """
-    Mahal kita
-    Mahal kita
-    Mahal kita
-    """
-
-    """
-    Walang iba, walang iba
-    Wala nang hahanapin pa
-    Pag-ibig ko'y sa 'yo
-    Sa iyo hanggang sa huli
-    """
+    
+    window hide
+    pause
 
     stop music fadeout 1.0
 

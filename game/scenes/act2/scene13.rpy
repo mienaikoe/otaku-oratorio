@@ -32,7 +32,7 @@ label scene13:
 
     teen_suisei "Okay, well my bad for saving your sorry ass! Or did you *want* to die back there?"
 
-    play music p5_regret
+    play music p5_regret fadein 1.0 fadeout 1.0 volume 0.5
 
     teen_ivy "Of course not!!! But then what are we even supposed to do? Go back for another ass-beating?"
 
@@ -44,7 +44,7 @@ label scene13:
 
     teen_suisei "If that Akira still cares for us deep down, then maybe we could talk some sense into him. Or, uh, beat some sense into him before the talking."
 
-    play music mischief fadein 1.0 volume 0.5
+    play music mischief fadein 1.0 fadeout 1.0 volume 0.5
 
     teen_ivy "Okay then, you got any new ideas on how to not get obliterated by evil Akira? Cause I sure don't."
 
@@ -55,6 +55,8 @@ label scene13:
     teen_suisei "Ooookay, come on, let's get you home. You're so annoying when you're drunk."
 
     "With a huff, Suisei hoisted the keeled-over Ivy onto his feet and practically dragged him back to their farm."
+
+    stop music fadeout 1.0
 
     jump scene14
 

@@ -4,11 +4,8 @@ label scene15:
     stop music fadeout 1.0
     # arirang is a capella
 
-    """
-    Arirang, Arirang, Arariyo...
-    Arirang gogaero neomeoganda.
-    Nareul beorigo gasineun nimeun
-    Simnido motgaseo balbbyeongnanda.
+    lyrics """
+    Arirang, arirang, arariyo...\nYou are going over Arirang hill.\nMy love, if you abandon me\nYour feet will be sore before you go ten ri.\n
     """
 
     jump scene16

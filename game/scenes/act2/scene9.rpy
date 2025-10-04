@@ -25,61 +25,48 @@ label scene9:
 
     "She smiled and turned to him, grabbing his hand, and in this short moment they had together, they danced in the living room."
 
+    window hide
+    pause
+    window show
 
-    """
-    Ni wen wo ai ni you duo shen
-    Wo ai ni you ji fen
-    Wo di qing ye zhen,
-    wo di ai ue zhen
-    Yue liang dai biao wo de xin
-    """
+    lyrics """
+    You ask how deeply I love you\nAnd just how great my love is\n
 
-    """
-    Ni wen wo ai ni you duo shen
-    Wo ai ni you ji fen
-    Wo di qing bu yi
-    Wo de ai bu bian
-    Yue liang dai biao wo de xin
-    """
+    My affection is real\nAnd my love is true\nThe moon represents my heart\n
 
+    You ask how deeply I love you\nAnd just how great my love is\n
 
-    """
-    Qing qing de yi ge wen
-    Yi jing da dong wo de xin
-    Shen shen de yi duan qing
-    Jiao wo si niandao ru jin
+    My affection does not waver\nAnd my love doesn’t change\nThe moon represents my heart\n
+
+    A gentle kiss\nIs enough to move my heart\n
+
+    Such a deep affection\nMakes me long for you now\n
+
+    You ask how deeply I love you\nAnd just how great my love is\n
+
+    Consider this\nAnd look above\nThe moon represents my heart\n
     """
 
-    """
-    Ni wen wo ai ni you duo shen
-    Wo ai ni you ji fen
-    Ni qu xiang yi xiang,
-    Ni qu kan yi kan
-    Yue liang dai biao wo de xin...
+    window hide
+    pause
+    window show
+
+    lyrics """
+    So soft was the kiss\nThat has moved my heart\n
+
+    Such a deep affection\nMakes me long for you now\n
+
+    You ask how deeply I love you\nAnd just how great my love is\n
+
+    Consider this\nAnd look above\nThe moon represents my heart\n
+    
+    Consider this\nAnd look above\nThe moon represents my heart\n
     """
 
-    """
-    Qing qing de yi ge wen
-    Yi jing da dong wo de xin
-    Shen shen de yi duan qing
-    Jiao wo si nian dao ru jin
-    """
+    window hide
+    pause
+    window show
 
-    """
-    Ni wen wo ai ni you duo shen
-    Wo ai ni you ji fen
-    Ni qu xiang yi xiang,
-    Ni qu kan yi kan
-    Yue liang dai biao wo de xin...
-    """
-
-    """
-    Ni qu xiang yi xiang,
-    Ni qu kan yi kan
-    Yue lian dao biao wo de xin
-    Yue lian dao biao wo de xin...
-    """
-
-    stop music
+    stop music # back button protection
 
     jump scene10
