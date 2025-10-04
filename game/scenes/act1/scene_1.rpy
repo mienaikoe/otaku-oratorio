@@ -89,7 +89,7 @@ label scene_1:
     pause
     window show
 
-    play music plastic_love
+    play music plastic_love volume 0.3
 
     "The song ended and Akira looked around. Suisei seemed to be flirting with Ivy - playfully smacking him on the shoulder, leaning on him while laughing, a faint glow apparent on her cheeks. Ivy was oblivious to her advances and started teasing her."
 
