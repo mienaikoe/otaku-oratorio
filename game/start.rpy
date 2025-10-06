@@ -27,8 +27,8 @@ define config.has_autosave = False
 define config.main_menu_music = "audio/bgm/plastic_love.mp3"
 
 # config
-# default preferences.volume.music = 1.0
-# default preferences.volume.sfx = 1.0
+default preferences.volume.music = 1.0
+default preferences.volume.sfx = 1.0
 
 # backgrounds
 image park = "town.png" # MISSING IMAGE
@@ -36,7 +36,7 @@ image park = "town.png" # MISSING IMAGE
 image solid_black = Solid("#000000")
 image solid_white = Solid("#FFFFFF")
 
-define flash = Fade(0.5, 0, 0.5, color="#FFFFFF")
+define flash = Fade(0.5, 0, 0.5, color="#0f0e0e")
 
 # The game starts here.
 label start:

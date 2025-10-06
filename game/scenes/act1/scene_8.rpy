@@ -1,6 +1,6 @@
 label scene_8:
     scene castle_exterior with fade
-    play music bittersweet volume 0.3
+    play music chamber volume 0.5
     "At last, our adventurers found themselves at their destination. The castle stood tall in the cloudy moonlight, as if to challenge the very sky above it."
 
     "They anchored the ship and lowered themselves on a dinghy, waving to the cats that had been their companions for this last leg of their journey."
@@ -75,7 +75,7 @@ label scene_8:
 
     child_akira "We’ve come to end this."
 
-    play music find_the_flame 
+    play music find_the_flame_rain
 
     window hide
     pause
@@ -110,10 +110,12 @@ label scene_8:
     """
 
     child_ivy "Be careful, Akira!"
-
     child_akira "I’ve got this!"
-
     stranger "I’m done playing around."
+
+    window hide
+    pause
+    window show
 
     lyrics """
     Raise thy lantern, pioneer\nShine upon the far frontier\nFingers cracked and body broken\nMind a-daze yet soul awoken
@@ -122,9 +124,7 @@ label scene_8:
     """
 
     stranger "Is that all you’ve got? I’m starting to get bored."
-
     child_akira "Damn it! Why won’t he go down?!"
-
     stranger "It’s time to end this charade."
 
     lyrics """
@@ -135,9 +135,15 @@ label scene_8:
     Delve in this dark abyss\nFathomless emptiness\n'Til the kiss of fire enfolds you
     """
 
-    stop music
+    child_akira """
+    Suisei, Ivy, I know this is tough, but we can get through this! We can beat this guy!" 
+    
+    He may be faster and he may be stronger, but he doesn’t stand a chance if we work togeth--
+    """
 
     child_ivy "NO!"
+
+    stop music fadeout 1.0
 
     "The stranger’s sword had found a victim, pinning Akira against the ground as he gasped for air. Suisei ran toward Ivy in this brief opening."
 
@@ -147,22 +153,22 @@ label scene_8:
 
     "She lifted Ivy onto his feet and together they fled out the door."
 
-    play sound thunder
-    play music rain_end volume 0.5 fadein 1.0
+    play sound thunder volume 1.0
 
     "The stranger removed his helmet as he caught a final glimpse of the others. His hair and eyes resembled Akira’s."
 
     teen_akira "There can only be one of us, Akira."
     child_akira  "Suisei, I… love…"
 
-    teen_akira "Love. Love is no longer needed here."
+    teen_akira "Love... Love is no longer needed here."
 
     "With a wave of his hand, he cast a spell, dashing Akira into golden particles of light."
 
-    stop music
+    stop sound
+    play sound rain_organ volume 1.0
 
     window hide
-    pause
+    pause 10.0
 
     play sound ssbb_game_over
     scene game_over with fade
