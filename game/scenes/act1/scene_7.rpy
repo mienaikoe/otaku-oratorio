@@ -3,7 +3,7 @@ label scene_7:
     play music beach_party fadein 5.0 volume 0.1
 
     "The group spotted a clearing in the trees. Sensing danger, or maybe fun, Ivy scouted ahead."
-    child_ivy "It's, an ocean? Wait what's that boat doing over there?"
+    child_ivy "Whoa, it's a beach! Wait, what's that boat doing over there?"
     "In the water about a hundred paces out was a caravel with a wood-carving of a sheep's head on the front." 
     
     "Ivy started to look for people while Akira and Suisei caught up with him. Suisei walked forward and produced a telescope from her bag."
@@ -24,7 +24,7 @@ label scene_7:
     child_akira "Are you crazy? What if they see us?"
     child_suisei "That's a yes. Ivy?"
 
-    "She looked toward Ivy, who reached for a pokeball, and unleashed Squirtle."
+    "She looked toward Ivy, who reached for a Poké Ball, and unleashed Squirtle."
 
     child_ivy "Squirtle will help me swim!"
 
@@ -57,7 +57,7 @@ label scene_7:
     child_ivy "Squirtle! Why aren't you helping me up?"
     squirtle "Squir… tle…"
 
-    "Suisei squeezed the water from her hair and composed herself. With a deft hand motion, she levitated squirtle into her arms and softly set him onto the deck."
+    "Suisei squeezed the water from her hair and composed herself. With a deft hand motion, she levitated Squirtle into her arms and softly set him onto the deck."
 
     "She went to the railing to observe Ivy and found him swinging on an unstable ladder halfway up, his feet unable to find a foothold."
 
@@ -130,9 +130,9 @@ label scene_7:
     So being in a pinch is always\n
     A good opportunity to appeal to someone
 
-    With excess self-consciousness!\n
-    Full speed through the stingy night!
+    With excess self-consciousness!
 
+    Full speed through the stingy night!\n
     I'm not interested in treasure anyway\n
     A romance in the pocket, and\n
     You wanna be my friend?
@@ -146,6 +146,8 @@ label scene_7:
     You wanna be my friend?
 
     We are, we are on the cruise!\nWe are!
+
+    We are!
 
     We are!
     """

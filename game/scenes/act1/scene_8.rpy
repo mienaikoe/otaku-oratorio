@@ -32,7 +32,7 @@ label scene_8:
     "With a swift strike Akira sliced into the ghoul, dispatching it with his sword and it disintegrated into the air."
 
     child_ivy "Yea, get fucked, evil shadow thing."
-    child_akira "Are you ok?"
+    child_akira "Are you okay, Suisei?"
     child_suisei "Hand me my torch, would you?"
 
     child_suisei "I’ll be fine. Let’s keep moving."
@@ -47,7 +47,6 @@ label scene_8:
     child_ivy "Where?!"
 
     stop music fadeout 1.0
-    play sound distant_explosion volume 0.6
 
     "Suddenly a rumbling sound trembled the ground below them. In front of them, a door swung wide open and revealed a towering ballroom with burning candelabras lining the walls."
 
@@ -67,9 +66,7 @@ label scene_8:
 
     "Squirtle jumped and landed on Ivy’s back, and with a big heave, he used Water Gun as Ivy ran toward the stranger."
 
-    "To Ivy’s surprise, the stranger pulled out a long sword and pointed it straight at him. Ivy stopped in his tracks narrowly avoiding the tip. "
-
-    "The stranger laughed maniacally as he pulled out another identical sword."
+    "To Ivy’s surprise, the stranger pulled out a long sword and pointed it straight at him. Ivy stopped in his tracks narrowly avoiding the tip."
 
     "Akira readied himself."
 
@@ -136,7 +133,7 @@ label scene_8:
     """
 
     child_akira """
-    Suisei, Ivy, I know this is tough, but we can get through this! We can beat this guy!" 
+    Suisei, Ivy, I know this is tough, but we can get through this! We can beat this guy!
     
     He may be faster and he may be stronger, but he doesn’t stand a chance if we work togeth--
     """

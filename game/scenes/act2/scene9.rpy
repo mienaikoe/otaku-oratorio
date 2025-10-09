@@ -2,7 +2,7 @@ label scene9:
     scene living_room_night with fade
 
     window show
-    "The year was 2022. Akira sat alone in the living room, watching anime and scrolling on his phone, as was the custom at the time. The Wii where he used to play with Suisei and Ivy had been collecting dust for years."
+    "The year was 2022. Akira sat alone in the living room, watching anime and scrolling on his phone, as was the custom at the time. The Wii that he used to play with Suisei and Ivy had been collecting dust for years."
 
     "His mother walked in from another room with a sad look, phone in hand. But upon seeing her son, she perked up."
 
@@ -17,7 +17,7 @@ label scene9:
     window show
 
     "Akira's father opened the door of their home, and took his shoes off, voicing his exhaustion. He opened the fridge and pulled out some food."
-    mother "That's Akira's"
+    mother "That's Akira's."
     "He switched to leftovers while she finished packing her purse for work. Akira's father put the food down for a moment and kissed her on the forehead."
     father "Do you ever feel like we're just…"
     mother "Spinning a wheel?"
@@ -65,8 +65,5 @@ label scene9:
 
     window hide
     pause
-    window show
-
-    stop music # back button protection
 
     jump scene10

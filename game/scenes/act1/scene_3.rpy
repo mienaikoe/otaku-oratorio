@@ -12,7 +12,7 @@ label scene_3:
 
     "Akira was laid up in a hospital bed, bandaged all over and hooked up to all sorts of machines."
 
-    "The nurse entered to check his vitals on the machine. She fluffed his pillows and tucked him in."
+    "The nurse entered to check his vitals. She fluffed his pillows and tucked him in."
 
     nurse "You okay? Hanging in there?" 
 

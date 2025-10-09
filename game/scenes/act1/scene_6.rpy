@@ -4,7 +4,6 @@ label scene_6:
     with dissolve
 
     play music mischief fadeout 0.5 volume 0.5
-
     "Having thoroughly trained, Akira and Suisei ventured out into the wilderness beyond the town. They set course for the west, to the lands of JerSeykai, where the villain sat safe in his castle."
     "Little did they know that someone else was waiting to spring a trap upon them from the shadow of a tree."
     child_akira "…So I should keep working on my defensive technique because it feels like I keep getting hit in my blind spots, and-"
@@ -85,7 +84,7 @@ label scene_6:
 
     play music mischief fadeout 0.5 volume 0.5
 
-    child_ivy "Haha, you are quite the tough one, my friend. But I ain’t done yet! Raticate, I choose you! (pulls out metrocard) Wait… huh?"
+    child_ivy "Haha, you are quite the tough one, my friend. But I ain’t done yet! Raticate, I choose you! Wait… huh?"
     child_akira "Uhh, isn’t that a MetroCard? Why are you carrying that around in this world?"
 
     play music undertale_his_theme fadeout 0.5 volume 0.3
@@ -98,7 +97,7 @@ label scene_6:
 
     child_akira "…I… see… Well, to be honest, I don’t really want to fight you, because you remind me of one of my best friends! How about you join our team? We’re on our way to defeat the villain of this world, and we need all the strength that we can get! So, truce?"
     child_ivy "Hmm… well, what’s in it for me?"
-    child_akira "Uhh, well I’m sure that if you joined us you’d become a much stronger Pokemon trainer, especially if we defeat the villain. I mean, if we stomp the villain, then there’s nobody else we can’t stomp, right?"
+    child_akira "Uhh, well I’m sure that if you joined us you’d become a much stronger Pokemon trainer, especially if we defeat the villain. I mean, if we stomp the villain, that means we can stomp the whole world!"
     child_ivy "I like the way you think, my friend!"
     child_ivy "...Maybe it was my fate to run into you guys eventually…"
     child_akira "So, what’s it gonna be?"
@@ -109,6 +108,6 @@ label scene_6:
     child_ivy "I guess we’re a team now. Consider yourselves lucky, cuz it’s not easy to find someone as strong as me!"
 
     child_akira "Alright, whatever you say, man!"
-    child_suisei "Hmph, consider *yourself* lucky that I held back from beating you up back there!"
+    child_suisei "Hmph, consider {i}yourself{/i} lucky that I held back from beating you up back there!"
 
     jump scene_7

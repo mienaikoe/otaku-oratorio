@@ -136,7 +136,7 @@ label scene16:
     "The two got off the train and waved goodbye to Akira's father as his train rode off into the ether. Suisei looked at her hands, and Ivy looked at his sword."
 
     teen_ivy "I can do this! I think I can save Akira!"
-    teen_suisei "You mean WE. "
+    teen_suisei "You mean WE."
 
     "Suisei glanced at Ivy's new muscles, and averted her eyes."
 

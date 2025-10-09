@@ -15,9 +15,9 @@ label prologue:
     
     Sweet-smelling, beautiful, stems full of buds\nFragrant and white, everyone praises\n
 
-    Let me pluck you down\n Give to someone else\nJasmine flower, oh jasmine flower\n
-
-    Jasmine flower, jasmine flower\n
+    Let me pluck you down to give to someone
+    
+    Jasmine flower, oh jasmine flower
     """
 
     window hide

@@ -5,7 +5,7 @@ label scene_1:
 
     play music plastic_love fadeout 0.5 fadein 0.5 volume 0.3
 
-    "Let us now fast-forward thirteen years, to October of 2025, as we find our three friends at a karaoke bar in Manhattan. Akira was noticeably more quiet and reserved than before, especially when compared to his two livelier friends."
+    "Let us now fast-forward thirteen years to fall of 2025, as we find our three friends at a karaoke bar in Manhattan. Akira was noticeably more quiet and reserved than before, especially when compared to his two livelier friends."
 
     "They sat down at a bar together where Suisei and Ivy were having an animated discussion, bickering playfully while Akira simply looked on." 
 

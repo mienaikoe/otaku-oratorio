@@ -127,7 +127,7 @@ label scene17:
 
     play sound bus_approaching
 
-    """Ahhhhh, AHHHHHHH."""
+    lyrics "Ahh..."
 
     scene solid_white with flash
     stop music

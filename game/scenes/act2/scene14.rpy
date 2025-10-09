@@ -81,6 +81,8 @@ label scene14:
 
     "And with a reverent bow, the two left the hut and started on a new adventure into the mountains."
 
+    window hide
+
     stop music fadeout 1.0
 
     jump scene15

@@ -2,9 +2,7 @@ image ssbb_intro = Movie(play="video/ssbb_intro.webm", loop=False)
 
 label overture:
 
-    scene dokidoki:
-        zoom 2.
-    with dissolve
+    scene living_room_day
 
     play music jojo_peaceful_street_corner volume 0.1
 
@@ -34,7 +32,7 @@ label overture:
 
     child_akira "So Suisei, did you get that quiz result I sent you? It said that our friendship is like Mario and Peach. You think they're a good couple right? I think they're a good matc–"
 
-    child_suisei "–Actually no, it's never been confirmed they're canonically together, also it's just a Smash Bros, it's not that deep."
+    child_suisei "–Actually no, it's never been confirmed they're canonically together, also it's just Smash Bros, it's not that deep."
 
     child_akira "Oh... uhh okay..."
     
@@ -48,7 +46,7 @@ label overture:
 
     child_suisei "Can we go back to playing Smash?"
 
-    child_akira "Oh yeah."
+    child_akira "Oh, yeah."
 
     "Ivy and Akira both reached for their controllers too."
 

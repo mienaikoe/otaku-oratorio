@@ -9,7 +9,7 @@ label scene_4:
 
     scene town with dissolve
 
-    "Come with me as we find Akira passed out on the branch of a tree in a bustling JRPG town, no longer in his adult form, but… smaller."
+    "So, come with me as we find Akira passed out on the branch of a tree in a bustling JRPG town, no longer in his adult form, but… smaller."
 
     "A small cloaked figure approached, dressed in a witch’s hat and armed with a staff made surely for sorcery."
     child_suisei "Wow, that’s an awful position to sleep in. Hmmmm."
@@ -23,12 +23,12 @@ label scene_4:
     "Akira slowly blinked open his eyes."
     child_akira "…Ugh… Where am I?"
     child_suisei "Finally awake?"
-    child_akira "…Huh, Sui? Why are we here- wait, why are you wearing that weird witch cosplay? And why are you… *smaller*??"
+    child_akira "…Huh, Sui? Why are we here- wait, why are you wearing that weird witch cosplay? And why are you… {i}smaller??{/i}"
     child_suisei "Umm… not sure what you’re talking about? I’ve always looked like this. And how do you know my name, anyway?"
-    child_akira "What do you mean, of *course* I know your name- hang on… Something’s weird about me too. Has my voice always sounded this high? Sui, could you grab me a mirror real quick?"
+    child_akira "What do you mean, of {i}course{/i} I know your name- hang on… Something’s weird about me too. Has my voice always sounded this high? Sui, could you grab me a mirror real quick?"
     child_suisei "Sure, whatever gets you out of your tizzy."
     "She passes him the mirror on the bedside table."
-    child_akira "…Huh, I was right. I *am* younger. And so are you."
+    child_akira "…Huh, I was right. I {i}am{/i} younger. And so are you."
     "He tosses aside the mirror and stares defeatedly at Sui, having already lost the energy to question the current situation he was in."
     child_suisei "…Right. It does appear that I am about the same age as you."
     child_akira "No duh. Anyway, could you explain to me where we are? I feel like I’ve just been transported into an alternate universe, and I have no idea what’s going on."
@@ -110,7 +110,7 @@ label scene_4:
     child_suisei "And you honestly might’ve, if I hadn’t stepped in to help you out."
     child_akira "Thanks for saving my butt, Suisei. What kind of person would do this?"
     child_suisei "There’s only one person it could be."
-    child_akira "How am I gonna be able to defeat the villain when I’m this weak?"
+    child_akira "Ughh. This was the villain’s work? Oh man… How am I gonna be able to defeat him when I’m this weak?"
 
     child_suisei "…Hmm, I might know a way. Akira, do you want to become stronger?"
 

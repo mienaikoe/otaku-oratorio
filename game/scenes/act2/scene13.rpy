@@ -30,9 +30,9 @@ label scene13:
 
     teen_ivy "Hah. That's rich coming from the person who forced us to retreat in the first place."
 
-    teen_suisei "Okay, well my bad for saving your sorry ass! Or did you *want* to die back there?"
+    teen_suisei "Okay, well my bad for saving your sorry ass! Or did you {i}want{/i} to die back there?"
 
-    play music p5_regret fadein 1.0 fadeout 1.0 volume 0.5
+    play music p5_regret volume 0.5
 
     teen_ivy "Of course not!!! But then what are we even supposed to do? Go back for another ass-beating?"
 
@@ -40,15 +40,14 @@ label scene13:
 
     teen_ivy "Please… don't make me kill him…"
 
-    teen_suisei "Look… I get it, I’m confused too. But Akira’s still our friend, and I want to believe in him. If he’s still our Akira, maybe we could knock some sense into him."
-
-    play music mischief fadein 1.0 fadeout 1.0 volume 0.5
+    teen_suisei "Look… I get it. I don't know what the right thing to do is, either. But Akira’s our friend, and I want to believe in him. If he’s still our Akira, hey, maybe we could knock some sense into him."
 
     teen_ivy "Okay then, you got any new ideas on how to not get obliterated by evil Akira? Cause I sure don't."
 
     teen_suisei "Honestly? I really don't. Kinda just banking on our luck and the power of friendship here. But at this point, anything is better than sitting here and watching the world slowly crumble away."
 
-    teen_ivy "Haha, do you think evil Akira would at least be nice to me after he destroys the world? Maybe I could be his favorite little demon sidekick-"
+    play music mischief fadein 1.0 fadeout 1.0 volume 0.5
+    teen_ivy "Haha, do you think evil Akira would at least be nice to me after he destroys the world? Maybe I could be his favorite little sidechick-"
 
     teen_suisei "Ooookay, come on, let's get you home. You're so annoying when you're drunk."
 

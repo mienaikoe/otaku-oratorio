@@ -6,6 +6,10 @@ label scene10:
 
     "He had suggested the arcade to show off his unmatched skill in the world's finest arcade game."
 
+    scene ddr:
+        zoom 2.3
+    with dissolve
+
     stop music fadeout 1.0
 
     pause 1.0
@@ -40,9 +44,9 @@ label scene10:
 
     window hide
     pause
-    window show
 
     stop music fadeout 1.0
+    scene arcade with fade
 
     teen_suisei "Wowww, I didn't think you'd be that good at DDR!"
     teen_akira "Yeah, I guess the nervous energy has to be put to use somehow."
@@ -56,7 +60,7 @@ label scene10:
     teen_suisei "Oh of course, you can tell me anything you idiot!"
     teen_akira "We've known each other for a long time, I just get this fuzzy feeling inside, especially when I see you smile or even look at me and I think to myself, “oh god she's not mad at me or anything like that, right?” "
     teen_akira "I guess what I'm saying is that… it feels like you make my heart smile on the inside and I just think I really like you."
-    teen_suisei "(long pause). I… really like you too."
+    teen_suisei "I… really like you too."
     teen_akira "Oh, so you also?--"
     teen_suisei "–- N-not like that. I mean I like you a lot, you mean a lot to me… You're one of my best friends but… "
     teen_suisei "I've only seen you as a friend… It's not you, it's me… idiot."
