@@ -1,7 +1,6 @@
 label scene18:
     scene ascended_plane with fade
 
-    window hide
     pause
     window show
 

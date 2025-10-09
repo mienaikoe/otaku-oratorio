@@ -18,7 +18,7 @@ label scene14:
 
     Believe in living together\nAnd in the strength that is born\n
     
-    Look up, even if you go far away\nA love that binds (two) hearts into one, a sky of hope\n
+    Look up, even if you go far away\nA love that binds hearts into one, a sky of hope\n
     """
 
     stop music # protects against background music when hitting the back button

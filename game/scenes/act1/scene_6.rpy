@@ -1,10 +1,13 @@
 label scene_6:
 
-    scene park
-    with dissolve
+    scene park with fade
 
     play music mischief fadeout 0.5 volume 0.5
-    "Having thoroughly trained, Akira and Suisei ventured out into the wilderness beyond the town. They set course for the west, to the lands of JerSeykai, where the villain sat safe in his castle."
+
+    "Having thoroughly trained, Akira and Suisei ventured out into the wilderness beyond the town."
+    show jerseykai-500 at truecenter with dissolve
+    "They set course for the west, to the lands of JerSeykai, where the villain sat safe in his castle."
+    hide jerseykai-500 with dissolve
     "Little did they know that someone else was waiting to spring a trap upon them from the shadow of a tree."
     child_akira "…So I should keep working on my defensive technique because it feels like I keep getting hit in my blind spots, and-"
 

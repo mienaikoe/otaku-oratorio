@@ -22,13 +22,18 @@ label scene19:
 
     stop music fadeout 1.0
     stop sound fadeout 1.0
+    window hide
+    pause
+    window show
 
     lyrics"""
-    I chased after rabbits on that mountain.\nI fished for minnow in that river.\nI still dream of those days even now\nOh, how I miss my old country home.\n
+    I chased after rabbits on that mountain.\nI fished for minnow in that river.\nI still dream of those days even now\nOh, how I miss my hometown.
    
-    Father and mother―are they doing well?\nIs everything well with my old friends?\nWhen the rain falls, when the wind blows,\nI stop and recall of my old country home.\n
+    Father and mother―are they doing well?\nIs everything well with my old friends?\nWhen the rain falls, when the wind blows,\nI think of my hometown.
 
-    Some day when I have done what I set out to do,\nI'll return home one of these days\nWhere the mountains are green, my old country home,\nWhere the waters are clear, my old country home.\n
+    Once I have done what I set out to do,\nI'll return home one of these days\nMy hometown, where the mountains are green\nMy hometown, where the water is clear.
+
+    Oh, how I miss my hometown.
     """
 
     jump epilogue

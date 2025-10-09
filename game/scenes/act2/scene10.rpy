@@ -8,7 +8,7 @@ label scene10:
 
     scene ddr:
         zoom 2.3
-    with dissolve
+    with fade
 
     stop music fadeout 1.0
 

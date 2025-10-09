@@ -43,11 +43,13 @@ label scene17:
 
     stop music fadeout 1.0
 
-    teen_akira "Too bad. You two actually had a chance in a place like this. "
-    teen_suisei "Shut up!"
+    teen_akira "Too bad. You two actually had a chance in a place like this."
     teen_akira "But now you're fated to die."
 
     stop music fadeout 1.0 # back button protection
+    window hide
+    pause
+    window show
 
     lyrics """
     Fithos lusec wecos vinosec
@@ -143,5 +145,7 @@ label scene17:
     "Suisei walked slowly toward Akira, and took his hand."
 
     "He rose and faced her, then she led him onto the bus."
+
+    window hide
 
     jump scene18

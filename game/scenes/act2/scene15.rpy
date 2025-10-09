@@ -9,16 +9,9 @@ label scene15:
 
     lyrics """
     Arirang, arirang, arariyo...\nYou are going over Arirang hill.\nMy love, if you abandon me\nYour feet will be sore before you go ten ri.\n
-
-    Arirang, arirang, arariyo...\nYou are going over Arirang hill.\nMy love, if you abandon me\nYour feet will be sore before you go ten ri.\n
-
-    Arirang, arirang, arariyo...\nYou are going over Arirang hill.\nMy love, if you abandon me\nYour feet will be sore before you go ten ri.\n
     """
 
     window hide
     pause
-    window show
-
-    
 
     jump scene16
