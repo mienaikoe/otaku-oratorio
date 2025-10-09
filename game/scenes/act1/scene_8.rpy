@@ -41,9 +41,9 @@ label scene_8:
 
     child_akira "I’ve got an eerie feeling about this."
     child_ivy "Don’t worry Akira, I’ve got your back."
-    child_suisei "Until a pokemon appears."
+    child_suisei "Until a Pokemon appears."
     child_ivy "Hey, what’s that supposed to mean?"
-    child_suisei "Wow, is that a vulpix?"
+    child_suisei "Wow, is that a Vulpix?"
     child_ivy "Where?!"
 
     stop music fadeout 1.0

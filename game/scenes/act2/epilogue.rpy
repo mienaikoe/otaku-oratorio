@@ -7,15 +7,15 @@ label epilogue:
 
     "Akira, Suisei, and Ivy returned to the living room where they used to play as children. Ivy quickly wired up the Wii while Akira dusted it off."
 
-    adult_suisei "You're not supposed to blow on it like an NES cartridge"
+    adult_suisei "You're not supposed to blow on it like an NES cartridge."
     adult_akira "Gotta take care of her. She's been there for me through middle school, high school, losing my mom, a couple of failed confessions… and now getting hit by a bus…"
-    adult_ivy "And we'll keep being there for you too"
-    adult_suisei "Yeah… we're not going anywhere"
+    adult_ivy "And we'll keep being there for you too!"
+    adult_suisei "Yeah… we're not going anywhere."
 
     stop music fadeout 1.0
     play music wii_startup 
     
-    adult_ivy "Well, just because you just got out of the hospital doesn't mean I'll take it easy on you"
+    adult_ivy "Well, just because you just got out of the hospital doesn't mean I'll take it easy on you!"
 
     adult_akira "Still cocky I see."
     adult_ivy "Not cocky, just confident."
@@ -27,7 +27,7 @@ label epilogue:
     $ renpy.music.set_volume(1.0, delay=0.0, channel='sound')
     scene ssbb_credits with fade 
     
-    adult_akira "Final destination, no items, Fox only. Let's go."
+    adult_akira "Final destination, no items, Fox only. Let's go!"
     adult_akira "And no skipping the intro!"
 
     window hide

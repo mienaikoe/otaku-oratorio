@@ -17,10 +17,10 @@ label scene_6:
     fangirls "Ooooh!"
     play sound [ "<silence 4.5>", airhorn ]
 
-    child_ivy "and I’m on a quest to stomp every unsuspecting Pokemon trainer in my path!!"
+    child_ivy "And I’m on a quest to stomp every unsuspecting Pokemon trainer in my path!!"
     child_akira "HUH?? Pokemon trainer?"
-    child_suisei "(trying desperately trying to hold in her laughter.)"
-    child_akira "I-I think there might be some sorta mistake here, um… (whispering to Suisei) Hey Suisei, what’s up with Ivy? Is he normally like this?"
+    child_suisei "(Trying desperately trying to hold in her laughter.)"
+    child_akira "I-I think there might be some sorta mistake here, um… Hey Suisei, what’s up with Ivy? Is he normally like this?"
     child_suisei "I… have no idea… Maybe he’s just tripping his ass off right now…"
     child_ivy "IT DOESN’T MATTER! You know the unspoken rule between fellow Trainers: if our eyes meet, we must battle!! Squirtle, get ready!"
     squirtle "SQUIRTLE!"
@@ -41,7 +41,10 @@ label scene_6:
 
     (Pokémon Gotta catch 'em all)\nIt's you and me\nI know it's my destiny (Pokémon)\nOh, you're my best friend\nIn a world we must defend
 
-    (Pokémon Gotta catch 'em all) A heart so true\nOur courage will pull us through\nYou teach me and I'll teach you\nPokémon! Gotta catch 'em all
+    (Pokémon Gotta catch 'em all) A heart so true\nOur courage will pull us through\nYou teach me and I'll teach you
+    
+    Pokémon! (Gotta catch 'em all)\nGotta catch 'em all\nYeah
+
 
     Every challenge along the way\nWith courage, I will face\nI will battle every day\nTo claim my rightful place
 
@@ -49,20 +52,35 @@ label scene_6:
 
     (Pokémon Gotta catch 'em all)\nIt's you and me\nI know it's my destiny (Pokémon)\nOh, you're my best friend\nIn a world we must defend
 
-    (Pokémon Gotta catch 'em all) A heart so true\nOur courage will pull us through\nYou teach me and I'll teach you\nPokémon! Gotta catch 'em all
+    (Pokémon Gotta catch 'em all) A heart so true\nOur courage will pull us through\nYou teach me and I'll teach you
+    
+    Pokémon! (Gotta catch 'em all)\nGotta catch 'em all
+
+    Gotta catch 'em all
 
     """
 
-    window hide
-    pause
-    window show
+    child_akira "A-Are you okay, Suisei? I can swap in!"
+
+    child_suisei "It’s fine! All they’re doing is spraying water at me..."
+
+    lyrics "Gotta catch 'em all\nGotta catch 'em all\nYeah!"
+
+    child_ivy "Hah! Isn’t it kinda {i}barbaric{/i} to use your own {i}girlfriend{/i} in a Pokemon battle? Right, Squirtle?"
+
+    squirtle "Squirt! (blows raspberry)"
+
+    child_suisei "If you two don’t shut up I’ll {i}show you{/i} what barbaric looks like!"
+
+    child_ivy "Ooooh, scaryyyy!"
+
 
     lyrics """
     (Pokémon Gotta catch 'em all)\nIt's you and me\nI know it's my destiny (Pokémon)\nOh, you're my best friend\nIn a world we must defend
 
-    (Pokémon Gotta catch 'em all) A heart so true\nOur courage will pull us through\nYou teach me and I'll teach you\nPokémon! Gotta catch 'em all
-
-    Pokémon!
+    (Pokémon Gotta catch 'em all) A heart so true\nOur courage will pull us through\nYou teach me and I'll teach you
+    
+    Pokémon! Gotta catch 'em all\nGotta catch 'em all\nPokémon!
     """
 
     play music mischief fadeout 0.5 volume 0.5
