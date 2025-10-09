@@ -40,9 +40,7 @@ label scene13:
 
     teen_ivy "Please… don't make me kill him…"
 
-    teen_suisei "Look… I get it. I still don't know for sure if that villain actually was Akira. I'm super confused about it as well. But… if he really is Akira, then I want to believe that he wouldn't kill another version of himself."
-
-    teen_suisei "If that Akira still cares for us deep down, then maybe we could talk some sense into him. Or, uh, beat some sense into him before the talking."
+    teen_suisei "Look… I get it, I’m confused too. But Akira’s still our friend, and I want to believe in him. If he’s still our Akira, maybe we could knock some sense into him."
 
     play music mischief fadein 1.0 fadeout 1.0 volume 0.5
 
