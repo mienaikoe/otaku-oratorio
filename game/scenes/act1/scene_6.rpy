@@ -1,6 +1,6 @@
 label scene_6:
 
-    scene forest
+    scene park
     with dissolve
 
     play music mischief fadeout 0.5 volume 0.5
