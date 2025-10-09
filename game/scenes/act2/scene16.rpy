@@ -51,7 +51,7 @@ label scene16:
     father "All aboard, you two!"
     teen_suisei "I am Suisei, and this is–"
     teen_ivy "Ivy! We are trying to get to the castle, do you know the way?"
-    father "The castle? Why are you going there? (whispering) It's kind of a tourist trap."
+    father "The castle? Why are you going there? It's kind of a tourist trap."
     teen_suisei "We want to find our friend."
     teen_ivy "His name's Akira, have you heard of him?"
     father "Ah yes, I know Akira quite well. You'll need to stock up where you're going. Come, I can take you where you need to go."
