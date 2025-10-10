@@ -1,10 +1,10 @@
 label scene17:
 
     scene castle_interior with fade
-    play music bowser_galaxy fadein 1.0 fadeout 1.0 volume 0.1
+    play music infinity_castle_trimmed volume 0.1
 
-    "The castle was in ruins since the last time they were there. The windows were broken, and the torches were all unlit." 
-    
+    "The castle was in ruins since the last time they were there. The windows were broken, and the torches were all unlit."
+
     "Suisei took a torch from the wall, added some oil from her bag and lit it with a dagger and a rock from the floor. A thousand spiders crawled away at the bright light."
 
     teen_suisei "You'd think with all these minion ghost things, one of them could pick up a broom."
@@ -138,8 +138,8 @@ label scene17:
     pause
     window show
 
-    "A bus appeared from the great beyond, hurtling towards him at great speed. Akira braced for impact as mythical bus approached." 
-    
+    "A bus appeared from the great beyond, hurtling towards him at great speed. Akira braced for impact as mythical bus approached."
+
     "But, to his surprise, the bus slowed to a stop. And the door opened."
 
     "Suisei walked slowly toward Akira, and took his hand."

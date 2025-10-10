@@ -1,6 +1,6 @@
 label scene_8:
     scene castle_exterior with fade
-    play music chamber volume 0.5
+    play music chamber volume 0.5 fadeout 1.0 fadein 1.0
     "At last, our adventurers found themselves at their destination. The castle stood tall in the cloudy moonlight, as if to challenge the very sky above it."
 
     "They anchored the ship and lowered themselves on a dinghy, waving to the cats that had been their companions for this last leg of their journey."
@@ -15,7 +15,7 @@ label scene_8:
     "Akira and Ivy turned around and joined Suisei, each taking a hand. With a glance at Ivy and a flustered look, she shook off their hands and walked away. The two exchanged confused glances, then ran off to follow her."
 
     scene castle_interior with fade
-    play music rites volume 0.5
+    play music rites volume 0.5 fadeout 1.0 fadein 1.0
 
     "Once inside the castle, they found themselves in a dark entryway. Two sconces with unlit torches guarded the front door. Suisei took one and handed the other to Ivy. "
 
@@ -49,6 +49,8 @@ label scene_8:
     stop music fadeout 1.0
 
     "Suddenly a rumbling sound trembled the ground below them. In front of them, a door swung wide open and revealed a towering ballroom with burning candelabras lining the walls."
+
+    play music bowser_galaxy volume 0.05
 
     "A strange figure with armor and a helmet entered the doorway."
 
@@ -134,7 +136,7 @@ label scene_8:
 
     child_akira """
     Suisei, Ivy, I know this is tough, but we can get through this! We can beat this guy!
-    
+
     He may be faster and he may be stronger, but he doesn’t stand a chance if we work togeth--
     """
 
