@@ -41,6 +41,6 @@ label start:
 
     # jump overture # for act 1
     # jump prologue # for act 2
-    jump scene10
+    jump scene_2
 
     return
