@@ -36,6 +36,10 @@ label scene19:
     Oh, how I miss my hometown.
     """
 
+    window hide
+    pause
+    window show
+
     jump epilogue
 
 

@@ -3,6 +3,8 @@ label scene16:
     scene times_square with fade
     play music rites fadein 1.0 volume 0.3
 
+    window show
+
     "Suisei and Ivy entered a dark cavern. Across the walls lay spiderwebs, cast across the open air. Hidden behind walls of rock and dirt was the occasional tile or mosaic artwork: A sign that something had been here before."
 
     "Suisei stopped in front of a larger opening in the wall, and brushed her hand across the tile to try to read what it said."

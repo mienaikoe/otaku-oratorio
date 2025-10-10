@@ -48,7 +48,6 @@ label scene_5:
     We stand frozen to one place\nUnable to cry out loud
     """
 
-    stop music
     window hide
     pause
     window show

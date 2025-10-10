@@ -65,5 +65,6 @@ label scene9:
 
     window hide
     pause
+    window show
 
     jump scene10
