@@ -8,8 +8,8 @@ label overture:
 
     "The year was 2012. The Olympics were in London, Obama was about to be re-elected, and the timeline still kind of made sense."
 
-    "It is upon this backdrop that we discover our heroes for today. Three kids - Akira, Suisei, and Ivy - were enjoying their last weeks of their summer break, lounging in the living room to play the Nintendo Wii, as was customary at the time." 
-    
+    "It is upon this backdrop that we discover our heroes for today. Three kids - Akira, Suisei, and Ivy - were enjoying their last weeks of their summer break, lounging in the living room to play the Nintendo Wii, as was customary at the time."
+
     "Ivy's phone played a notification tone from “Gangnam Style” as was also customary at the time."
 
     child_ivy "Yooooo, my status got eight likes, that's basically viral."
@@ -35,7 +35,7 @@ label overture:
     child_suisei "–Actually no, it's never been confirmed they're canonically together, also it's just Smash Bros, it's not that deep."
 
     child_akira "Oh... uhh okay..."
-    
+
     child_akira "I guess I'm just going to be #ForeverAlone."
 
     child_suisei "What was that?"
@@ -58,6 +58,8 @@ label overture:
 
     child_akira "W-What's the score between us again? Me: 99 wins to your 5 matches?"
 
+    play sound ssbb_wii_menu_banner volume 0.2
+
     child_suisei "Cool your bromance guys, I'm beating you both."
 
     stop sound fadeout 0.5
@@ -74,4 +76,3 @@ label overture:
 
     jump scene_1
 
-    
