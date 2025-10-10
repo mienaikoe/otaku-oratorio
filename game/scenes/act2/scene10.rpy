@@ -11,8 +11,10 @@ label scene10:
     with fade
 
     stop music fadeout 1.0
-
     pause 1.0
+
+    play sound ddr_ready_set_step volume 0.6
+    pause 2.0
 
     play music hikaru_nara
 
@@ -47,6 +49,9 @@ label scene10:
 
     stop music fadeout 1.0
     scene arcade with fade
+
+    play sound ddr_stage_clear volume 0.6
+    pause 2.0
 
     teen_suisei "Wowww, I didn't think you'd be that good at DDR!"
     teen_akira "Yeah, I guess the nervous energy has to be put to use somehow."
