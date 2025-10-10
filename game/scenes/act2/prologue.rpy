@@ -12,11 +12,11 @@ label prologue:
 
     lyrics """
     What a beautiful jasmine flower\nWhat a beautiful jasmine flower\n
-    
+
     Sweet-smelling, beautiful, stems full of buds\nFragrant and white, everyone praises\n
 
     Let me pluck you down to give to someone
-    
+
     Jasmine flower, oh jasmine flower
     """
 
@@ -26,11 +26,11 @@ label prologue:
 
     lyrics """
     What a beautiful jasmine flower\nWhat a beautiful jasmine flower\n
-    
+
     Sweet-smelling, beautiful, stems full of buds\nFragrant and white, everyone praises\n
 
     What a beautiful jasmine flower\nWhat a beautiful jasmine flower\n
-    
+
     Sweet-smelling, beautiful, stems full of buds\nFragrant and white, everyone praises\n
 
     What a beautiful jasmine flower\nWhat a beautiful jasmine flower\n
@@ -39,8 +39,10 @@ label prologue:
     """
 
     window hide
+    pause
+
     scene solid_black with fade
-    
+
     pause
 
     jump scene9

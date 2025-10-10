@@ -13,11 +13,11 @@ label scene14:
 
     lyrics """
     Far away, on the other side, is a sleeping person\nIf you close your eyes, it spreads out\nThe gentle voice of that day\n
-    
+
     It seems like eternal light is returning to the earth\nUntil it reaches the forgiveness of the earth\n
 
     Believe in living together\nAnd in the strength that is born\n
-    
+
     Look up, even if you go far away\nA love that binds hearts into one, a sky of hope\n
     """
 
@@ -29,8 +29,8 @@ label scene14:
 
     play music bittersweet fadein 1.0 volume 0.5
 
-    "Suisei opened the door to her hut, with Ivy ducking in behind her, leaving it slightly ajar for light." 
-    
+    "Suisei opened the door to her hut, with Ivy ducking in behind her, leaving it slightly ajar for light."
+
     "In the corner, a fire-lit silhouette was huddled behind a cloth. Suisei stopped in her tracks and slowly moved toward the silhouette with her hands up for a magic spell."
 
     teen_suisei "Who's there?"
@@ -72,12 +72,12 @@ label scene14:
     teen_ivy "Sui, maybe we should check that out."
     teen_suisei "Maybe. Let's prepare for a long journey then."
 
-    "The two hurried to pack as Akira’s mom told them stories from Akira’s childhood." 
-    
+    "The two hurried to pack as Akira’s mom told them stories from Akira’s childhood."
+
     "Once they’d finished packing, they turned to her to say goodbye."
 
     mother "If you’re ever in trouble, there’s a special kind of magic in that card of yours. Don’t forget to ask for help."
-    teen_suisei "Thank you. I’ll remember that."
+    teen_ivy "Thank you. I’ll remember that."
 
     "And with a reverent bow, the two left the hut and started on a new adventure into the mountains."
 

@@ -78,7 +78,7 @@ label scene16:
     it's brightness fills the sky\n
     Why it shines so beautifully?\n
     Because behind it's where you hide.\n
-    
+
     All the yearning that I feel,\n
     for the many lights I see.\n
     Is all because the warmth that they give\n
@@ -126,6 +126,10 @@ label scene16:
 
     on its wings, yes you and I.\n
     """
+
+    window hide
+    pause
+    window show
 
     teen_ivy "I feel like a brand new fighter!"
     teen_suisei "And an even stronger sorcerer. Thank you for your help. We'll use it wisely."

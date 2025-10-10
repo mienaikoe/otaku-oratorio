@@ -44,7 +44,7 @@ label scene_6:
     (Pokémon Gotta catch 'em all)\nIt's you and me\nI know it's my destiny (Pokémon)\nOh, you're my best friend\nIn a world we must defend
 
     (Pokémon Gotta catch 'em all) A heart so true\nOur courage will pull us through\nYou teach me and I'll teach you
-    
+
     Pokémon! (Gotta catch 'em all)\nGotta catch 'em all\nYeah
 
 
@@ -55,7 +55,7 @@ label scene_6:
     (Pokémon Gotta catch 'em all)\nIt's you and me\nI know it's my destiny (Pokémon)\nOh, you're my best friend\nIn a world we must defend
 
     (Pokémon Gotta catch 'em all) A heart so true\nOur courage will pull us through\nYou teach me and I'll teach you
-    
+
     Pokémon! (Gotta catch 'em all)\nGotta catch 'em all
 
     Gotta catch 'em all
@@ -76,12 +76,15 @@ label scene_6:
 
     child_ivy "Ooooh, scaryyyy!"
 
+    window hide
+    pause
+    window show
 
     lyrics """
     (Pokémon Gotta catch 'em all)\nIt's you and me\nI know it's my destiny (Pokémon)\nOh, you're my best friend\nIn a world we must defend
 
     (Pokémon Gotta catch 'em all) A heart so true\nOur courage will pull us through\nYou teach me and I'll teach you
-    
+
     Pokémon! Gotta catch 'em all\nGotta catch 'em all\nPokémon!
     """
 
@@ -92,8 +95,8 @@ label scene_6:
 
     play music undertale_his_theme fadeout 0.5 volume 0.3
 
-    child_ivy "This? I… don’t know… it’s just something that’s always been sitting uselessly in my pocket, but for some reason I’ve never had the heart to throw it away… I’ve just got this feeling that it belongs to someone…" 
-    child_ivy "...important to me…" 
+    child_ivy "This? I… don’t know… it’s just something that’s always been sitting uselessly in my pocket, but for some reason I’ve never had the heart to throw it away… I’ve just got this feeling that it belongs to someone…"
+    child_ivy "...important to me…"
     "Ivy looked up and furrowed his brows at Akira, as if trying desperately to remember something."
 
     play music mischief fadeout 0.5 volume 0.5

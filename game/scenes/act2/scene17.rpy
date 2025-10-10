@@ -138,7 +138,7 @@ label scene17:
     pause
     window show
 
-    "A bus appeared from the great beyond, hurtling towards him at great speed. Akira braced for impact as mythical bus approached."
+    "A bus appeared from the great beyond, hurtling towards him at great speed. Akira braced for impact as a mythical bus approached."
 
     "But, to his surprise, the bus slowed to a stop. And the door opened."
 

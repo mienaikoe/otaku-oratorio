@@ -1,6 +1,6 @@
 label scene11:
     scene funeral with fade
-    play music thunder fadein 3.0
+    play music thunder fadein 3.0 volume 0.5
 
     "It was a cloudy day at the funeral."
 
@@ -22,7 +22,7 @@ label scene11:
 
     "So instead, he decided to sing."
 
-    play music hanggang_sa_huli 
+    play music hanggang_sa_huli
 
     window hide
     pause
@@ -103,7 +103,7 @@ label scene11:
     My love is yours (My love is yours)\n
     Until the end\n
     """
-    
+
     window hide
     pause
 
