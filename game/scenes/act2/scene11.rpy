@@ -16,7 +16,7 @@ label scene11:
 
     teen_akira "When things would get bad, she'd remind me that “even the darkness shines too with the stars”."
 
-    teen_akira "I didn't always believe her. But I have to do my best."
+    teen_akira "I didn't always believe her. But I'll do my best."
 
     "Akira left the front and his father stepped forward to speak to the crowd that had gathered. But as he tried to talk, the words failed him."
 

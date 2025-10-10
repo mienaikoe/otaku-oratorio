@@ -63,6 +63,10 @@ label scene17:
 
     teen_akira "Ready your weapons! I won't let you get away this time."
 
+    window hide
+    pause
+    window show
+
     lyrics """
     Fithos lusec wecos vinosec\nFithos lusec wecos vinosec\n
     """
