@@ -172,6 +172,6 @@ label scene_8:
     play sound ssbb_game_over
     scene game_over with fade
 
-    pause
+    pause # intermission
 
     jump prologue

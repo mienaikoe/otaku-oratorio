@@ -152,6 +152,10 @@ label scene_7:
     We are!
     """
 
+    window hide
+    pause
+    window show
+
     jump scene_8
 
 

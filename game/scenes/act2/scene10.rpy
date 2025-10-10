@@ -52,6 +52,8 @@ label scene10:
 
     play sound ddr_stage_clear volume 0.6
     pause 2.0
+    
+    window show
 
     teen_suisei "Wowww, I didn't think you'd be that good at DDR!"
     teen_akira "Yeah, I guess the nervous energy has to be put to use somehow."

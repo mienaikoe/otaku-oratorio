@@ -88,6 +88,10 @@ label scene_6:
     Pokémon! Gotta catch 'em all\nGotta catch 'em all\nPokémon!
     """
 
+    window hide
+    pause
+    window show
+
     play music mischief fadeout 0.5 volume 0.5
 
     child_ivy "Haha, you are quite the tough one, my friend. But I ain’t done yet! Raticate, I choose you! Wait… huh?"

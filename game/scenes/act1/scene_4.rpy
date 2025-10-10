@@ -104,6 +104,10 @@ label scene_4:
     Young boy, shine like a legend,\nHolding the sky in your arms.
     """
 
+    window hide
+    pause
+    window show
+
     play music forest fadeout 0.5 fadein 0.5 volume 0.3
     child_akira "I thought I was going to die back there."
 
